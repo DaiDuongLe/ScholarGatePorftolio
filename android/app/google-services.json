@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "718709113658",
+    "project_id": "incasenotontime-18wjyo",
+    "storage_bucket": "incasenotontime-18wjyo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718709113658:android:f0ca2ed5908f69aeacc603",
+        "android_client_info": {
+          "package_name": "com.scholargate.portfolio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718709113658-8gh108jao3edongd7fspob4ibfd9togv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmedDK1MBbl16tYNofCBKjW-J1H9jaHU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718709113658-8gh108jao3edongd7fspob4ibfd9togv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "718709113658-788s5htsffain1vf4bj1qb8c99ttju63.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.scholargate.portfolio"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
