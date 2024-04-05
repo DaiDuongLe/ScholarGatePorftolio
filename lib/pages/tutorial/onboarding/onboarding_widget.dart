@@ -176,6 +176,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget>
                                   fontFamily: 'Plus Jakarta Sans',
                                   color: const Color(0xFF101213),
                                   fontSize: 26.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.normal,
                                 ),
                           ).animateOnPageLoad(
@@ -196,6 +197,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget>
                                   fontFamily: 'Plus Jakarta Sans',
                                   color: const Color(0xFF57636C),
                                   fontSize: 14.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
                                 ),
                           ).animateOnPageLoad(
@@ -237,6 +239,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget>
                                       fontFamily: 'Plus Jakarta Sans',
                                       color: const Color(0xFF101213),
                                       fontSize: 16.0,
+                                      letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
                                     ),
                             elevation: 0.0,
@@ -275,6 +278,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget>
                                   fontFamily: 'Plus Jakarta Sans',
                                   color: Colors.white,
                                   fontSize: 16.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w500,
                                 ),
                             elevation: 3.0,

@@ -68,8 +68,6 @@ class PerformingArtsModel extends FlutterFlowModel<PerformingArtsWidget> {
     return null;
   }
 
-  /// Initialization and disposal methods.
-
   @override
   void initState(BuildContext context) {
     textController1Validator = _textController1Validator;
@@ -93,8 +91,4 @@ class PerformingArtsModel extends FlutterFlowModel<PerformingArtsWidget> {
     textFieldFocusNode4?.dispose();
     textController4?.dispose();
   }
-
-  /// Action blocks are added here.
-
-  /// Additional helper methods are added here.
 }

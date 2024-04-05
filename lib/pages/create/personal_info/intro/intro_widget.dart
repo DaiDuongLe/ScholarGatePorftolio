@@ -85,6 +85,7 @@ class _IntroWidgetState extends State<IntroWidget> {
                           fontFamily: 'Outfit',
                           color: const Color(0xFF15161E),
                           fontSize: 32.0,
+                          letterSpacing: 0.0,
                           fontWeight: FontWeight.w600,
                         ),
                   ),
@@ -97,6 +98,7 @@ class _IntroWidgetState extends State<IntroWidget> {
                             fontFamily: 'Plus Jakarta Sans',
                             color: const Color(0xFF606A85),
                             fontSize: 14.0,
+                            letterSpacing: 0.0,
                             fontWeight: FontWeight.w500,
                           ),
                     ),
@@ -119,12 +121,14 @@ class _IntroWidgetState extends State<IntroWidget> {
                                   .override(
                                     fontFamily: 'Readex Pro',
                                     fontSize: 16.0,
+                                    letterSpacing: 0.0,
                                     fontWeight: FontWeight.w300,
                                   ),
                               hintStyle: FlutterFlowTheme.of(context)
                                   .labelMedium
                                   .override(
                                     fontFamily: 'Readex Pro',
+                                    letterSpacing: 0.0,
                                     fontWeight: FontWeight.w200,
                                   ),
                               enabledBorder: UnderlineInputBorder(
@@ -161,7 +165,9 @@ class _IntroWidgetState extends State<IntroWidget> {
                                 .override(
                                   fontFamily: 'Readex Pro',
                                   fontSize: 22.0,
+                                  letterSpacing: 0.0,
                                 ),
+                            minLines: null,
                             maxLength: 300,
                             maxLengthEnforcement: MaxLengthEnforcement.enforced,
                             validator: _model.textControllerValidator
@@ -196,6 +202,7 @@ class _IntroWidgetState extends State<IntroWidget> {
                                   fontFamily: 'Plus Jakarta Sans',
                                   color: Colors.white,
                                   fontSize: 16.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
                                 ),
                         elevation: 4.0,
@@ -227,6 +234,7 @@ class _IntroWidgetState extends State<IntroWidget> {
                                   fontFamily: 'Plus Jakarta Sans',
                                   color: FlutterFlowTheme.of(context).primary,
                                   fontSize: 16.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
                                 ),
                         elevation: 4.0,

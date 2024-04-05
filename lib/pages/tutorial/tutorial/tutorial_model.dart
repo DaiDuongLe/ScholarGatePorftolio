@@ -10,8 +10,6 @@ class TutorialModel extends FlutterFlowModel<TutorialWidget> {
   // State field(s) for SwipeableStack widget.
   late CardSwiperController swipeableStackController;
 
-  /// Initialization and disposal methods.
-
   @override
   void initState(BuildContext context) {
     swipeableStackController = CardSwiperController();
@@ -21,8 +19,4 @@ class TutorialModel extends FlutterFlowModel<TutorialWidget> {
   void dispose() {
     unfocusNode.dispose();
   }
-
-  /// Action blocks are added here.
-
-  /// Additional helper methods are added here.
 }

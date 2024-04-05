@@ -77,12 +77,14 @@ class _ClubsComponentWidgetState extends State<ClubsComponentWidget> {
                           FlutterFlowTheme.of(context).labelMedium.override(
                                 fontFamily: 'Readex Pro',
                                 fontSize: 22.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w300,
                               ),
                       hintText: 'Club name',
                       hintStyle:
                           FlutterFlowTheme.of(context).labelMedium.override(
                                 fontFamily: 'Readex Pro',
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w200,
                               ),
                       enabledBorder: UnderlineInputBorder(
@@ -117,8 +119,10 @@ class _ClubsComponentWidgetState extends State<ClubsComponentWidget> {
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Readex Pro',
                           fontSize: 22.0,
+                          letterSpacing: 0.0,
                           fontWeight: FontWeight.normal,
                         ),
+                    minLines: null,
                     validator:
                         _model.textController1Validator.asValidator(context),
                   ),
@@ -142,12 +146,14 @@ class _ClubsComponentWidgetState extends State<ClubsComponentWidget> {
                           FlutterFlowTheme.of(context).labelMedium.override(
                                 fontFamily: 'Readex Pro',
                                 fontSize: 22.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w300,
                               ),
                       hintText: 'Your position ',
                       hintStyle:
                           FlutterFlowTheme.of(context).labelMedium.override(
                                 fontFamily: 'Readex Pro',
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w200,
                               ),
                       enabledBorder: UnderlineInputBorder(
@@ -182,8 +188,10 @@ class _ClubsComponentWidgetState extends State<ClubsComponentWidget> {
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Readex Pro',
                           fontSize: 22.0,
+                          letterSpacing: 0.0,
                           fontWeight: FontWeight.normal,
                         ),
+                    minLines: null,
                     maxLength: 25,
                     maxLengthEnforcement: MaxLengthEnforcement.enforced,
                     validator:
@@ -215,6 +223,7 @@ class _ClubsComponentWidgetState extends State<ClubsComponentWidget> {
                                   fontFamily: 'Outfit',
                                   color: const Color(0xFF606A85),
                                   fontSize: 22.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w300,
                                 ),
                             hintText: 'MM/DD/YYYY',
@@ -224,6 +233,7 @@ class _ClubsComponentWidgetState extends State<ClubsComponentWidget> {
                                   fontFamily: 'Plus Jakarta Sans',
                                   color: const Color(0xFF606A85),
                                   fontSize: 14.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w200,
                                 ),
                             enabledBorder: UnderlineInputBorder(
@@ -264,8 +274,10 @@ class _ClubsComponentWidgetState extends State<ClubsComponentWidget> {
                                 fontFamily: 'Outfit',
                                 color: const Color(0xFF15161E),
                                 fontSize: 22.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.normal,
                               ),
+                          minLines: null,
                           maxLength: 10,
                           maxLengthEnforcement: MaxLengthEnforcement.enforced,
                           buildCounter: (context,
@@ -294,6 +306,7 @@ class _ClubsComponentWidgetState extends State<ClubsComponentWidget> {
                                 fontFamily: 'Outfit',
                                 color: const Color(0xFF606A85),
                                 fontSize: 22.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w300,
                               ),
                           hintText: 'MM/DD/YYYY ',
@@ -302,6 +315,7 @@ class _ClubsComponentWidgetState extends State<ClubsComponentWidget> {
                                     fontFamily: 'Plus Jakarta Sans',
                                     color: const Color(0xFF606A85),
                                     fontSize: 14.0,
+                                    letterSpacing: 0.0,
                                     fontWeight: FontWeight.w200,
                                   ),
                           enabledBorder: UnderlineInputBorder(
@@ -340,8 +354,10 @@ class _ClubsComponentWidgetState extends State<ClubsComponentWidget> {
                                   fontFamily: 'Outfit',
                                   color: const Color(0xFF15161E),
                                   fontSize: 22.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.normal,
                                 ),
+                        minLines: null,
                         maxLength: 10,
                         maxLengthEnforcement: MaxLengthEnforcement.enforced,
                         buildCounter: (context,

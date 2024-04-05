@@ -104,6 +104,7 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                         fontFamily: 'Outfit',
                         color: const Color(0xFF15161E),
                         fontSize: 32.0,
+                        letterSpacing: 0.0,
                         fontWeight: FontWeight.w600,
                       ),
                 ),
@@ -115,6 +116,7 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                           fontFamily: 'Plus Jakarta Sans',
                           color: const Color(0xFF606A85),
                           fontSize: 20.0,
+                          letterSpacing: 0.0,
                           fontWeight: FontWeight.w500,
                         ),
                   ),
@@ -160,11 +162,16 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                                                   .override(
                                                     fontFamily: 'Readex Pro',
                                                     fontSize: 22.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w300,
                                                   ),
                                           hintStyle:
                                               FlutterFlowTheme.of(context)
-                                                  .labelMedium,
+                                                  .labelMedium
+                                                  .override(
+                                                    fontFamily: 'Readex Pro',
+                                                    letterSpacing: 0.0,
+                                                  ),
                                           enabledBorder: UnderlineInputBorder(
                                             borderSide: BorderSide(
                                               color:
@@ -212,8 +219,10 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                                             .override(
                                               fontFamily: 'Readex Pro',
                                               fontSize: 22.0,
+                                              letterSpacing: 0.0,
                                               fontWeight: FontWeight.normal,
                                             ),
+                                        minLines: null,
                                         maxLength: 50,
                                         maxLengthEnforcement:
                                             MaxLengthEnforcement.enforced,
@@ -256,6 +265,7 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                                                           color:
                                                               const Color(0xFF606A85),
                                                           fontSize: 22.0,
+                                                          letterSpacing: 0.0,
                                                           fontWeight:
                                                               FontWeight.w300,
                                                         ),
@@ -269,6 +279,7 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                                                           color:
                                                               const Color(0xFF606A85),
                                                           fontSize: 14.0,
+                                                          letterSpacing: 0.0,
                                                           fontWeight:
                                                               FontWeight.w200,
                                                         ),
@@ -327,9 +338,11 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                                                         color:
                                                             const Color(0xFF15161E),
                                                         fontSize: 22.0,
+                                                        letterSpacing: 0.0,
                                                         fontWeight:
                                                             FontWeight.normal,
                                                       ),
+                                              minLines: null,
                                               keyboardType:
                                                   TextInputType.datetime,
                                               cursorColor: const Color(0xFF6F61EF),
@@ -357,6 +370,7 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                                                     fontFamily: 'Outfit',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 22.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w300,
                                                   ),
                                               hintText: 'MM/DD/YYYY',
@@ -368,6 +382,7 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                                                         'Plus Jakarta Sans',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 14.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w200,
                                                   ),
                                               enabledBorder:
@@ -418,8 +433,10 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                                                   fontFamily: 'Outfit',
                                                   color: const Color(0xFF15161E),
                                                   fontSize: 22.0,
+                                                  letterSpacing: 0.0,
                                                   fontWeight: FontWeight.normal,
                                                 ),
+                                            minLines: null,
                                             keyboardType:
                                                 TextInputType.datetime,
                                             cursorColor: const Color(0xFF6F61EF),
@@ -468,11 +485,16 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                                                   .override(
                                                     fontFamily: 'Readex Pro',
                                                     fontSize: 22.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w300,
                                                   ),
                                           hintStyle:
                                               FlutterFlowTheme.of(context)
-                                                  .labelMedium,
+                                                  .labelMedium
+                                                  .override(
+                                                    fontFamily: 'Readex Pro',
+                                                    letterSpacing: 0.0,
+                                                  ),
                                           enabledBorder: UnderlineInputBorder(
                                             borderSide: BorderSide(
                                               color:
@@ -520,8 +542,10 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                                             .override(
                                               fontFamily: 'Readex Pro',
                                               fontSize: 22.0,
+                                              letterSpacing: 0.0,
                                               fontWeight: FontWeight.normal,
                                             ),
+                                        minLines: null,
                                         maxLength: 50,
                                         maxLengthEnforcement:
                                             MaxLengthEnforcement.enforced,
@@ -564,6 +588,7 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                                                           color:
                                                               const Color(0xFF606A85),
                                                           fontSize: 22.0,
+                                                          letterSpacing: 0.0,
                                                           fontWeight:
                                                               FontWeight.w300,
                                                         ),
@@ -577,6 +602,7 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                                                           color:
                                                               const Color(0xFF606A85),
                                                           fontSize: 14.0,
+                                                          letterSpacing: 0.0,
                                                           fontWeight:
                                                               FontWeight.w200,
                                                         ),
@@ -635,9 +661,11 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                                                         color:
                                                             const Color(0xFF15161E),
                                                         fontSize: 22.0,
+                                                        letterSpacing: 0.0,
                                                         fontWeight:
                                                             FontWeight.normal,
                                                       ),
+                                              minLines: null,
                                               keyboardType:
                                                   TextInputType.datetime,
                                               cursorColor: const Color(0xFF6F61EF),
@@ -665,6 +693,7 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                                                     fontFamily: 'Outfit',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 22.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w300,
                                                   ),
                                               hintText: 'MM/DD/YYYY',
@@ -676,6 +705,7 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                                                         'Plus Jakarta Sans',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 14.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w200,
                                                   ),
                                               enabledBorder:
@@ -726,8 +756,10 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                                                   fontFamily: 'Outfit',
                                                   color: const Color(0xFF15161E),
                                                   fontSize: 22.0,
+                                                  letterSpacing: 0.0,
                                                   fontWeight: FontWeight.normal,
                                                 ),
+                                            minLines: null,
                                             keyboardType:
                                                 TextInputType.datetime,
                                             cursorColor: const Color(0xFF6F61EF),
@@ -787,6 +819,7 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                                 fontFamily: 'Plus Jakarta Sans',
                                 color: Colors.white,
                                 fontSize: 16.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w600,
                               ),
                       elevation: 4.0,
@@ -831,6 +864,7 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                                 fontFamily: 'Plus Jakarta Sans',
                                 color: FlutterFlowTheme.of(context).primary,
                                 fontSize: 16.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w600,
                               ),
                       elevation: 4.0,
@@ -861,6 +895,7 @@ class _InternshipsWidgetState extends State<InternshipsWidget> {
                                 fontFamily: 'Plus Jakarta Sans',
                                 color: FlutterFlowTheme.of(context).accent4,
                                 fontSize: 16.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w600,
                               ),
                       elevation: 4.0,

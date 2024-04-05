@@ -92,6 +92,7 @@ class _LoginVerifyWidgetState extends State<LoginVerifyWidget> {
                                       fontFamily: 'Urbanist',
                                       color: const Color(0xFF101213),
                                       fontSize: 32.0,
+                                      letterSpacing: 0.0,
                                       fontWeight: FontWeight.w600,
                                     ),
                               ),
@@ -115,6 +116,7 @@ class _LoginVerifyWidgetState extends State<LoginVerifyWidget> {
                                       color: FlutterFlowTheme.of(context)
                                           .secondaryText,
                                       fontSize: 14.0,
+                                      letterSpacing: 0.0,
                                       fontWeight: FontWeight.w300,
                                     ),
                               ),
@@ -165,6 +167,7 @@ class _LoginVerifyWidgetState extends State<LoginVerifyWidget> {
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .info,
+                                                letterSpacing: 0.0,
                                               ),
                                           elevation: 3.0,
                                           borderSide: const BorderSide(
@@ -207,6 +210,7 @@ class _LoginVerifyWidgetState extends State<LoginVerifyWidget> {
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .info,
+                                                letterSpacing: 0.0,
                                               ),
                                           elevation: 3.0,
                                           borderSide: const BorderSide(

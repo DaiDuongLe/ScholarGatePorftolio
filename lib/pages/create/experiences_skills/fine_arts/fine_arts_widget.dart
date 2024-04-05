@@ -85,6 +85,7 @@ class _FineArtsWidgetState extends State<FineArtsWidget> {
                           fontFamily: 'Outfit',
                           color: const Color(0xFF15161E),
                           fontSize: 32.0,
+                          letterSpacing: 0.0,
                           fontWeight: FontWeight.w600,
                         ),
                   ),
@@ -97,6 +98,7 @@ class _FineArtsWidgetState extends State<FineArtsWidget> {
                             fontFamily: 'Plus Jakarta Sans',
                             color: const Color(0xFF606A85),
                             fontSize: 20.0,
+                            letterSpacing: 0.0,
                             fontWeight: FontWeight.w500,
                           ),
                     ),
@@ -124,6 +126,7 @@ class _FineArtsWidgetState extends State<FineArtsWidget> {
                                   .override(
                                     fontFamily: 'Readex Pro',
                                     fontSize: 22.0,
+                                    letterSpacing: 0.0,
                                     fontWeight: FontWeight.w300,
                                   ),
                               hintText:
@@ -132,6 +135,7 @@ class _FineArtsWidgetState extends State<FineArtsWidget> {
                                   .labelMedium
                                   .override(
                                     fontFamily: 'Readex Pro',
+                                    letterSpacing: 0.0,
                                     fontWeight: FontWeight.w200,
                                   ),
                               enabledBorder: UnderlineInputBorder(
@@ -168,8 +172,10 @@ class _FineArtsWidgetState extends State<FineArtsWidget> {
                                 .override(
                                   fontFamily: 'Readex Pro',
                                   fontSize: 16.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.normal,
                                 ),
+                            minLines: null,
                             maxLength: 50,
                             maxLengthEnforcement: MaxLengthEnforcement.enforced,
                             keyboardType: TextInputType.url,
@@ -216,6 +222,7 @@ class _FineArtsWidgetState extends State<FineArtsWidget> {
                                   fontFamily: 'Plus Jakarta Sans',
                                   color: Colors.white,
                                   fontSize: 16.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
                                 ),
                         elevation: 4.0,
@@ -257,6 +264,7 @@ class _FineArtsWidgetState extends State<FineArtsWidget> {
                                   fontFamily: 'Plus Jakarta Sans',
                                   color: FlutterFlowTheme.of(context).primary,
                                   fontSize: 16.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
                                 ),
                         elevation: 4.0,
@@ -288,6 +296,7 @@ class _FineArtsWidgetState extends State<FineArtsWidget> {
                                   fontFamily: 'Plus Jakarta Sans',
                                   color: FlutterFlowTheme.of(context).accent4,
                                   fontSize: 16.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
                                 ),
                         elevation: 4.0,

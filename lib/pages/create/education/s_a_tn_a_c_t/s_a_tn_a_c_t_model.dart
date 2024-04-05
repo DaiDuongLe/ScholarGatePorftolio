@@ -55,8 +55,6 @@ class SATnACTModel extends FlutterFlowModel<SATnACTWidget> {
   // State field(s) for CheckboxListTile widget.
   bool? checkboxListTileValue2;
 
-  /// Initialization and disposal methods.
-
   @override
   void initState(BuildContext context) {
     textController1Validator = _textController1Validator;
@@ -72,8 +70,4 @@ class SATnACTModel extends FlutterFlowModel<SATnACTWidget> {
     textFieldFocusNode2?.dispose();
     textController2?.dispose();
   }
-
-  /// Action blocks are added here.
-
-  /// Additional helper methods are added here.
 }

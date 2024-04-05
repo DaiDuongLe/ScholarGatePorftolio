@@ -100,8 +100,6 @@ class InternshipsModel extends FlutterFlowModel<InternshipsWidget> {
     return null;
   }
 
-  /// Initialization and disposal methods.
-
   @override
   void initState(BuildContext context) {
     textController2Validator = _textController2Validator;
@@ -131,8 +129,4 @@ class InternshipsModel extends FlutterFlowModel<InternshipsWidget> {
     textFieldFocusNode6?.dispose();
     textController6?.dispose();
   }
-
-  /// Action blocks are added here.
-
-  /// Additional helper methods are added here.
 }

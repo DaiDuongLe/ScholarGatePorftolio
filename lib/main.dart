@@ -13,8 +13,6 @@ import 'package:floating_bottom_navigation_bar/floating_bottom_navigation_bar.da
 import 'flutter_flow/nav/nav.dart';
 import 'index.dart';
 
-import '/backend/firebase_dynamic_links/firebase_dynamic_links.dart';
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   usePathUrlStrategy();
@@ -82,13 +80,10 @@ class _MyAppState extends State<MyApp> {
       supportedLocales: const [Locale('en', '')],
       theme: ThemeData(
         brightness: Brightness.light,
+        useMaterial3: false,
       ),
       themeMode: _themeMode,
       routerConfig: _router,
-      builder: (_, child) => DynamicLinksHandler(
-        router: _router,
-        child: child!,
-      ),
     );
   }
 }

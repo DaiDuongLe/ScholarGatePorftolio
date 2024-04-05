@@ -74,9 +74,14 @@ class _InternshipComponentWidgetState extends State<InternshipComponentWidget> {
                           FlutterFlowTheme.of(context).labelMedium.override(
                                 fontFamily: 'Readex Pro',
                                 fontSize: 22.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w300,
                               ),
-                      hintStyle: FlutterFlowTheme.of(context).labelMedium,
+                      hintStyle:
+                          FlutterFlowTheme.of(context).labelMedium.override(
+                                fontFamily: 'Readex Pro',
+                                letterSpacing: 0.0,
+                              ),
                       enabledBorder: UnderlineInputBorder(
                         borderSide: BorderSide(
                           color: FlutterFlowTheme.of(context).alternate,
@@ -109,8 +114,10 @@ class _InternshipComponentWidgetState extends State<InternshipComponentWidget> {
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Readex Pro',
                           fontSize: 22.0,
+                          letterSpacing: 0.0,
                           fontWeight: FontWeight.normal,
                         ),
+                    minLines: null,
                     validator:
                         _model.textController1Validator.asValidator(context),
                   ),
@@ -140,6 +147,7 @@ class _InternshipComponentWidgetState extends State<InternshipComponentWidget> {
                                   fontFamily: 'Outfit',
                                   color: const Color(0xFF606A85),
                                   fontSize: 22.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w300,
                                 ),
                             hintText: 'MM/DD/YYYY',
@@ -149,6 +157,7 @@ class _InternshipComponentWidgetState extends State<InternshipComponentWidget> {
                                   fontFamily: 'Plus Jakarta Sans',
                                   color: const Color(0xFF606A85),
                                   fontSize: 14.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w200,
                                 ),
                             enabledBorder: UnderlineInputBorder(
@@ -189,8 +198,10 @@ class _InternshipComponentWidgetState extends State<InternshipComponentWidget> {
                                 fontFamily: 'Outfit',
                                 color: const Color(0xFF15161E),
                                 fontSize: 22.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.normal,
                               ),
+                          minLines: null,
                           keyboardType: TextInputType.datetime,
                           cursorColor: const Color(0xFF6F61EF),
                           validator: _model.textController2Validator
@@ -212,6 +223,7 @@ class _InternshipComponentWidgetState extends State<InternshipComponentWidget> {
                                 fontFamily: 'Outfit',
                                 color: const Color(0xFF606A85),
                                 fontSize: 22.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w300,
                               ),
                           hintText: 'MM/DD/YYYY',
@@ -220,6 +232,7 @@ class _InternshipComponentWidgetState extends State<InternshipComponentWidget> {
                                     fontFamily: 'Plus Jakarta Sans',
                                     color: const Color(0xFF606A85),
                                     fontSize: 14.0,
+                                    letterSpacing: 0.0,
                                     fontWeight: FontWeight.w200,
                                   ),
                           enabledBorder: UnderlineInputBorder(
@@ -258,8 +271,10 @@ class _InternshipComponentWidgetState extends State<InternshipComponentWidget> {
                                   fontFamily: 'Outfit',
                                   color: const Color(0xFF15161E),
                                   fontSize: 22.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.normal,
                                 ),
+                        minLines: null,
                         keyboardType: TextInputType.datetime,
                         cursorColor: const Color(0xFF6F61EF),
                         validator: _model.textController3Validator

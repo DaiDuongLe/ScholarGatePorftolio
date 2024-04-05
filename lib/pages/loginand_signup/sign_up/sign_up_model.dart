@@ -21,8 +21,6 @@ class SignUpModel extends FlutterFlowModel<SignUpWidget> {
   late bool confirmpasswordVisibility;
   String? Function(BuildContext, String?)? confirmpasswordControllerValidator;
 
-  /// Initialization and disposal methods.
-
   @override
   void initState(BuildContext context) {
     passwordVisibility = false;
@@ -41,8 +39,4 @@ class SignUpModel extends FlutterFlowModel<SignUpWidget> {
     confirmpasswordFocusNode?.dispose();
     confirmpasswordController?.dispose();
   }
-
-  /// Action blocks are added here.
-
-  /// Additional helper methods are added here.
 }

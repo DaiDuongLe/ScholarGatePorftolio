@@ -80,6 +80,7 @@ class _CreateWidgetState extends State<CreateWidget> {
                             .override(
                               fontFamily: 'Readex Pro',
                               color: FlutterFlowTheme.of(context).primaryText,
+                              letterSpacing: 0.0,
                             ),
                         elevation: 3.0,
                         borderSide: const BorderSide(

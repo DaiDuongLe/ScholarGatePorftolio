@@ -116,6 +116,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                         fontFamily: 'Outfit',
                         color: const Color(0xFF15161E),
                         fontSize: 32.0,
+                        letterSpacing: 0.0,
                         fontWeight: FontWeight.w600,
                       ),
                 ),
@@ -127,6 +128,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                           fontFamily: 'Plus Jakarta Sans',
                           color: const Color(0xFF606A85),
                           fontSize: 20.0,
+                          letterSpacing: 0.0,
                           fontWeight: FontWeight.w500,
                         ),
                   ),
@@ -181,6 +183,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                     fontFamily: 'Outfit',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 22.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w300,
                                                   ),
                                               hintStyle: FlutterFlowTheme.of(
@@ -191,6 +194,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                         'Plus Jakarta Sans',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 14.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w500,
                                                   ),
                                               enabledBorder:
@@ -241,8 +245,10 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                   fontFamily: 'Outfit',
                                                   color: const Color(0xFF15161E),
                                                   fontSize: 22.0,
+                                                  letterSpacing: 0.0,
                                                   fontWeight: FontWeight.normal,
                                                 ),
+                                            minLines: null,
                                             maxLength: 50,
                                             maxLengthEnforcement:
                                                 MaxLengthEnforcement.enforced,
@@ -288,6 +294,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                           color:
                                                               const Color(0xFF606A85),
                                                           fontSize: 22.0,
+                                                          letterSpacing: 0.0,
                                                           fontWeight:
                                                               FontWeight.w300,
                                                         ),
@@ -301,6 +308,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                           color:
                                                               const Color(0xFF606A85),
                                                           fontSize: 14.0,
+                                                          letterSpacing: 0.0,
                                                           fontWeight:
                                                               FontWeight.w200,
                                                         ),
@@ -359,9 +367,11 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                         color:
                                                             const Color(0xFF15161E),
                                                         fontSize: 22.0,
+                                                        letterSpacing: 0.0,
                                                         fontWeight:
                                                             FontWeight.normal,
                                                       ),
+                                              minLines: null,
                                               maxLength: 10,
                                               maxLengthEnforcement:
                                                   MaxLengthEnforcement.enforced,
@@ -397,6 +407,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                     fontFamily: 'Outfit',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 22.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w300,
                                                   ),
                                               hintText: 'MM/DD/YYYY',
@@ -408,6 +419,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                         'Plus Jakarta Sans',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 14.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w200,
                                                   ),
                                               enabledBorder:
@@ -458,8 +470,10 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                   fontFamily: 'Outfit',
                                                   color: const Color(0xFF15161E),
                                                   fontSize: 22.0,
+                                                  letterSpacing: 0.0,
                                                   fontWeight: FontWeight.normal,
                                                 ),
+                                            minLines: null,
                                             maxLength: 10,
                                             maxLengthEnforcement:
                                                 MaxLengthEnforcement.enforced,
@@ -525,6 +539,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                     fontFamily: 'Outfit',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 22.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w300,
                                                   ),
                                               hintStyle: FlutterFlowTheme.of(
@@ -535,6 +550,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                         'Plus Jakarta Sans',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 14.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w500,
                                                   ),
                                               enabledBorder:
@@ -585,8 +601,10 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                   fontFamily: 'Outfit',
                                                   color: const Color(0xFF15161E),
                                                   fontSize: 22.0,
+                                                  letterSpacing: 0.0,
                                                   fontWeight: FontWeight.normal,
                                                 ),
+                                            minLines: null,
                                             maxLength: 50,
                                             maxLengthEnforcement:
                                                 MaxLengthEnforcement.enforced,
@@ -632,6 +650,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                           color:
                                                               const Color(0xFF606A85),
                                                           fontSize: 22.0,
+                                                          letterSpacing: 0.0,
                                                           fontWeight:
                                                               FontWeight.w300,
                                                         ),
@@ -645,6 +664,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                           color:
                                                               const Color(0xFF606A85),
                                                           fontSize: 14.0,
+                                                          letterSpacing: 0.0,
                                                           fontWeight:
                                                               FontWeight.w200,
                                                         ),
@@ -703,9 +723,11 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                         color:
                                                             const Color(0xFF15161E),
                                                         fontSize: 22.0,
+                                                        letterSpacing: 0.0,
                                                         fontWeight:
                                                             FontWeight.normal,
                                                       ),
+                                              minLines: null,
                                               maxLength: 10,
                                               maxLengthEnforcement:
                                                   MaxLengthEnforcement.enforced,
@@ -741,6 +763,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                     fontFamily: 'Outfit',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 22.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w300,
                                                   ),
                                               hintText: 'MM/DD/YYYY',
@@ -752,6 +775,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                         'Plus Jakarta Sans',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 14.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w200,
                                                   ),
                                               enabledBorder:
@@ -802,8 +826,10 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                   fontFamily: 'Outfit',
                                                   color: const Color(0xFF15161E),
                                                   fontSize: 22.0,
+                                                  letterSpacing: 0.0,
                                                   fontWeight: FontWeight.normal,
                                                 ),
+                                            minLines: null,
                                             maxLength: 10,
                                             maxLengthEnforcement:
                                                 MaxLengthEnforcement.enforced,
@@ -869,6 +895,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                     fontFamily: 'Outfit',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 22.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w300,
                                                   ),
                                               hintStyle: FlutterFlowTheme.of(
@@ -879,6 +906,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                         'Plus Jakarta Sans',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 14.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w500,
                                                   ),
                                               enabledBorder:
@@ -929,8 +957,10 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                   fontFamily: 'Outfit',
                                                   color: const Color(0xFF15161E),
                                                   fontSize: 22.0,
+                                                  letterSpacing: 0.0,
                                                   fontWeight: FontWeight.normal,
                                                 ),
+                                            minLines: null,
                                             maxLength: 50,
                                             maxLengthEnforcement:
                                                 MaxLengthEnforcement.enforced,
@@ -976,6 +1006,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                           color:
                                                               const Color(0xFF606A85),
                                                           fontSize: 22.0,
+                                                          letterSpacing: 0.0,
                                                           fontWeight:
                                                               FontWeight.w300,
                                                         ),
@@ -989,6 +1020,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                           color:
                                                               const Color(0xFF606A85),
                                                           fontSize: 14.0,
+                                                          letterSpacing: 0.0,
                                                           fontWeight:
                                                               FontWeight.w200,
                                                         ),
@@ -1047,9 +1079,11 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                         color:
                                                             const Color(0xFF15161E),
                                                         fontSize: 22.0,
+                                                        letterSpacing: 0.0,
                                                         fontWeight:
                                                             FontWeight.normal,
                                                       ),
+                                              minLines: null,
                                               maxLength: 10,
                                               maxLengthEnforcement:
                                                   MaxLengthEnforcement.enforced,
@@ -1085,6 +1119,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                     fontFamily: 'Outfit',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 22.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w300,
                                                   ),
                                               hintText: 'MM/DD/YYYY',
@@ -1096,6 +1131,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                         'Plus Jakarta Sans',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 14.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w200,
                                                   ),
                                               enabledBorder:
@@ -1146,8 +1182,10 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                                   fontFamily: 'Outfit',
                                                   color: const Color(0xFF15161E),
                                                   fontSize: 22.0,
+                                                  letterSpacing: 0.0,
                                                   fontWeight: FontWeight.normal,
                                                 ),
+                                            minLines: null,
                                             maxLength: 10,
                                             maxLengthEnforcement:
                                                 MaxLengthEnforcement.enforced,
@@ -1218,6 +1256,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                 fontFamily: 'Plus Jakarta Sans',
                                 color: Colors.white,
                                 fontSize: 16.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w600,
                               ),
                       elevation: 4.0,
@@ -1265,6 +1304,7 @@ class _SchoolsWidgetState extends State<SchoolsWidget> {
                                 fontFamily: 'Plus Jakarta Sans',
                                 color: FlutterFlowTheme.of(context).primary,
                                 fontSize: 16.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w600,
                               ),
                       elevation: 4.0,

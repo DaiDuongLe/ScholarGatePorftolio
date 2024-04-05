@@ -92,6 +92,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                 style: FlutterFlowTheme.of(context).bodyMedium.override(
                       fontFamily: 'Outfit',
                       fontSize: 30.0,
+                      letterSpacing: 0.0,
                       fontWeight: FontWeight.w600,
                     ),
               ),
@@ -132,6 +133,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 25.0,
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w600,
                                       ),
                                 ),
@@ -157,6 +159,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                     Container(
@@ -179,12 +182,20 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                               'N/A',
                                             ),
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyMedium,
+                                                .bodyMedium
+                                                .override(
+                                                  fontFamily: 'Readex Pro',
+                                                  letterSpacing: 0.0,
+                                                ),
                                           ),
                                           Text(
                                             '-',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyMedium,
+                                                .bodyMedium
+                                                .override(
+                                                  fontFamily: 'Readex Pro',
+                                                  letterSpacing: 0.0,
+                                                ),
                                           ),
                                           Text(
                                             valueOrDefault<String>(
@@ -193,7 +204,11 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                               'N/A',
                                             ),
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyMedium,
+                                                .bodyMedium
+                                                .override(
+                                                  fontFamily: 'Readex Pro',
+                                                  letterSpacing: 0.0,
+                                                ),
                                           ),
                                         ],
                                       ),
@@ -222,6 +237,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                     Container(
@@ -244,12 +260,20 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                               'N/A',
                                             ),
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyMedium,
+                                                .bodyMedium
+                                                .override(
+                                                  fontFamily: 'Readex Pro',
+                                                  letterSpacing: 0.0,
+                                                ),
                                           ),
                                           Text(
                                             '-',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyMedium,
+                                                .bodyMedium
+                                                .override(
+                                                  fontFamily: 'Readex Pro',
+                                                  letterSpacing: 0.0,
+                                                ),
                                           ),
                                           Text(
                                             valueOrDefault<String>(
@@ -258,7 +282,11 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                               'N/A',
                                             ),
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyMedium,
+                                                .bodyMedium
+                                                .override(
+                                                  fontFamily: 'Readex Pro',
+                                                  letterSpacing: 0.0,
+                                                ),
                                           ),
                                         ],
                                       ),
@@ -287,6 +315,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                     Container(
@@ -309,12 +338,20 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                               'N/A',
                                             ),
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyMedium,
+                                                .bodyMedium
+                                                .override(
+                                                  fontFamily: 'Readex Pro',
+                                                  letterSpacing: 0.0,
+                                                ),
                                           ),
                                           Text(
                                             '-',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyMedium,
+                                                .bodyMedium
+                                                .override(
+                                                  fontFamily: 'Readex Pro',
+                                                  letterSpacing: 0.0,
+                                                ),
                                           ),
                                           AuthUserStreamWidget(
                                             builder: (context) => Text(
@@ -327,7 +364,12 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyMedium,
+                                                      .bodyMedium
+                                                      .override(
+                                                        fontFamily:
+                                                            'Readex Pro',
+                                                        letterSpacing: 0.0,
+                                                      ),
                                             ),
                                           ),
                                         ],
@@ -352,6 +394,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 25.0,
+                                            letterSpacing: 0.0,
                                             fontWeight: FontWeight.w600,
                                           ),
                                     ),
@@ -369,6 +412,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                               .override(
                                                 fontFamily: 'Readex Pro',
                                                 fontSize: 16.0,
+                                                letterSpacing: 0.0,
                                               ),
                                         ),
                                       ),
@@ -383,6 +427,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                             .override(
                                               fontFamily: 'Readex Pro',
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                             ),
                                       ),
                                     ],
@@ -400,6 +445,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                               .override(
                                                 fontFamily: 'Readex Pro',
                                                 fontSize: 16.0,
+                                                letterSpacing: 0.0,
                                               ),
                                         ),
                                       ),
@@ -414,6 +460,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                             .override(
                                               fontFamily: 'Readex Pro',
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                             ),
                                       ),
                                     ],
@@ -436,6 +483,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 25.0,
+                                            letterSpacing: 0.0,
                                             fontWeight: FontWeight.w600,
                                           ),
                                     ),
@@ -453,6 +501,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                               .override(
                                                 fontFamily: 'Readex Pro',
                                                 fontSize: 16.0,
+                                                letterSpacing: 0.0,
                                               ),
                                         ),
                                       ),
@@ -467,6 +516,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                             .override(
                                               fontFamily: 'Readex Pro',
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                             ),
                                       ),
                                       Container(
@@ -486,6 +536,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                               .override(
                                                 fontFamily: 'Readex Pro',
                                                 fontSize: 16.0,
+                                                letterSpacing: 0.0,
                                               ),
                                         ),
                                       ),
@@ -504,6 +555,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                               .override(
                                                 fontFamily: 'Readex Pro',
                                                 fontSize: 16.0,
+                                                letterSpacing: 0.0,
                                               ),
                                         ),
                                       ),
@@ -518,6 +570,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                             .override(
                                               fontFamily: 'Readex Pro',
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                             ),
                                       ),
                                       Container(
@@ -537,6 +590,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                               .override(
                                                 fontFamily: 'Readex Pro',
                                                 fontSize: 16.0,
+                                                letterSpacing: 0.0,
                                               ),
                                         ),
                                       ),
@@ -560,6 +614,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 25.0,
+                                            letterSpacing: 0.0,
                                             fontWeight: FontWeight.w600,
                                           ),
                                     ),
@@ -588,6 +643,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                                         fontFamily:
                                                             'Readex Pro',
                                                         fontSize: 16.0,
+                                                        letterSpacing: 0.0,
                                                       ),
                                             ),
                                           ),
@@ -612,6 +668,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                                         fontFamily:
                                                             'Readex Pro',
                                                         fontSize: 16.0,
+                                                        letterSpacing: 0.0,
                                                       ),
                                                 ),
                                               ),
@@ -632,6 +689,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                                           fontFamily:
                                                               'Readex Pro',
                                                           fontSize: 16.0,
+                                                          letterSpacing: 0.0,
                                                         ),
                                                   ),
                                                 ),
@@ -666,6 +724,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                                         fontFamily:
                                                             'Readex Pro',
                                                         fontSize: 16.0,
+                                                        letterSpacing: 0.0,
                                                       ),
                                             ),
                                           ),
@@ -690,6 +749,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                                         fontFamily:
                                                             'Readex Pro',
                                                         fontSize: 16.0,
+                                                        letterSpacing: 0.0,
                                                       ),
                                                 ),
                                               ),
@@ -710,6 +770,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                                           fontFamily:
                                                               'Readex Pro',
                                                           fontSize: 16.0,
+                                                          letterSpacing: 0.0,
                                                         ),
                                                   ),
                                                 ),
@@ -744,6 +805,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                                         fontFamily:
                                                             'Readex Pro',
                                                         fontSize: 16.0,
+                                                        letterSpacing: 0.0,
                                                       ),
                                             ),
                                           ),
@@ -768,6 +830,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                                         fontFamily:
                                                             'Readex Pro',
                                                         fontSize: 16.0,
+                                                        letterSpacing: 0.0,
                                                       ),
                                                 ),
                                               ),
@@ -788,6 +851,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                                           fontFamily:
                                                               'Readex Pro',
                                                           fontSize: 16.0,
+                                                          letterSpacing: 0.0,
                                                         ),
                                                   ),
                                                 ),
@@ -816,6 +880,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 25.0,
+                                            letterSpacing: 0.0,
                                             fontWeight: FontWeight.w600,
                                           ),
                                     ),
@@ -836,6 +901,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                               .override(
                                                 fontFamily: 'Readex Pro',
                                                 fontSize: 16.0,
+                                                letterSpacing: 0.0,
                                               ),
                                         ),
                                       ),
@@ -850,6 +916,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                               .override(
                                                 fontFamily: 'Readex Pro',
                                                 fontSize: 16.0,
+                                                letterSpacing: 0.0,
                                               ),
                                         ),
                                       ),
@@ -874,6 +941,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -888,6 +956,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -913,6 +982,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -927,6 +997,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -952,6 +1023,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -966,6 +1038,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -991,6 +1064,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -1005,6 +1079,7 @@ class _Academicpage4GuestWidgetState extends State<Academicpage4GuestWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),

@@ -12,8 +12,6 @@ class CertificatesModel extends FlutterFlowModel<CertificatesWidget> {
   TextEditingController? textController;
   String? Function(BuildContext, String?)? textControllerValidator;
 
-  /// Initialization and disposal methods.
-
   @override
   void initState(BuildContext context) {}
 
@@ -23,8 +21,4 @@ class CertificatesModel extends FlutterFlowModel<CertificatesWidget> {
     textFieldFocusNode?.dispose();
     textController?.dispose();
   }
-
-  /// Action blocks are added here.
-
-  /// Additional helper methods are added here.
 }

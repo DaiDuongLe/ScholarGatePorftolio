@@ -43,8 +43,6 @@ class PhoneNumbernEmailModel extends FlutterFlowModel<PhoneNumbernEmailWidget> {
     return null;
   }
 
-  /// Initialization and disposal methods.
-
   @override
   void initState(BuildContext context) {
     phoneControllerValidator = _phoneControllerValidator;
@@ -60,8 +58,4 @@ class PhoneNumbernEmailModel extends FlutterFlowModel<PhoneNumbernEmailWidget> {
     emailFocusNode?.dispose();
     emailController?.dispose();
   }
-
-  /// Action blocks are added here.
-
-  /// Additional helper methods are added here.
 }

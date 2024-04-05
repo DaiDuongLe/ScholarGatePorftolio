@@ -11,8 +11,6 @@ class ForgotPasswordModel extends FlutterFlowModel<ForgotPasswordWidget> {
   TextEditingController? emailAddressController;
   String? Function(BuildContext, String?)? emailAddressControllerValidator;
 
-  /// Initialization and disposal methods.
-
   @override
   void initState(BuildContext context) {}
 
@@ -22,8 +20,4 @@ class ForgotPasswordModel extends FlutterFlowModel<ForgotPasswordWidget> {
     emailAddressFocusNode?.dispose();
     emailAddressController?.dispose();
   }
-
-  /// Action blocks are added here.
-
-  /// Additional helper methods are added here.
 }

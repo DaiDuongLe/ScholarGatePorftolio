@@ -100,6 +100,7 @@ class _SkillsWidgetState extends State<SkillsWidget> {
                         fontFamily: 'Outfit',
                         color: const Color(0xFF15161E),
                         fontSize: 32.0,
+                        letterSpacing: 0.0,
                         fontWeight: FontWeight.w600,
                       ),
                 ),
@@ -111,6 +112,7 @@ class _SkillsWidgetState extends State<SkillsWidget> {
                           fontFamily: 'Plus Jakarta Sans',
                           color: const Color(0xFF606A85),
                           fontSize: 20.0,
+                          letterSpacing: 0.0,
                           fontWeight: FontWeight.w500,
                         ),
                   ),
@@ -141,12 +143,14 @@ class _SkillsWidgetState extends State<SkillsWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 22.0,
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w300,
                                       ),
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .labelMedium
                                       .override(
                                         fontFamily: 'Readex Pro',
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w200,
                                       ),
                                   enabledBorder: UnderlineInputBorder(
@@ -185,7 +189,9 @@ class _SkillsWidgetState extends State<SkillsWidget> {
                                     .override(
                                       fontFamily: 'Readex Pro',
                                       fontSize: 22.0,
+                                      letterSpacing: 0.0,
                                     ),
+                                minLines: null,
                                 maxLength: 100,
                                 maxLengthEnforcement:
                                     MaxLengthEnforcement.enforced,
@@ -217,12 +223,14 @@ class _SkillsWidgetState extends State<SkillsWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 22.0,
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w300,
                                       ),
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .labelMedium
                                       .override(
                                         fontFamily: 'Readex Pro',
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w200,
                                       ),
                                   enabledBorder: UnderlineInputBorder(
@@ -261,7 +269,9 @@ class _SkillsWidgetState extends State<SkillsWidget> {
                                     .override(
                                       fontFamily: 'Readex Pro',
                                       fontSize: 22.0,
+                                      letterSpacing: 0.0,
                                     ),
+                                minLines: null,
                                 maxLength: 100,
                                 maxLengthEnforcement:
                                     MaxLengthEnforcement.enforced,
@@ -293,12 +303,14 @@ class _SkillsWidgetState extends State<SkillsWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 22.0,
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w300,
                                       ),
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .labelMedium
                                       .override(
                                         fontFamily: 'Readex Pro',
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w200,
                                       ),
                                   enabledBorder: UnderlineInputBorder(
@@ -337,7 +349,9 @@ class _SkillsWidgetState extends State<SkillsWidget> {
                                     .override(
                                       fontFamily: 'Readex Pro',
                                       fontSize: 22.0,
+                                      letterSpacing: 0.0,
                                     ),
+                                minLines: null,
                                 maxLength: 100,
                                 maxLengthEnforcement:
                                     MaxLengthEnforcement.enforced,
@@ -369,12 +383,14 @@ class _SkillsWidgetState extends State<SkillsWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 22.0,
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w300,
                                       ),
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .labelMedium
                                       .override(
                                         fontFamily: 'Readex Pro',
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w200,
                                       ),
                                   enabledBorder: UnderlineInputBorder(
@@ -413,7 +429,9 @@ class _SkillsWidgetState extends State<SkillsWidget> {
                                     .override(
                                       fontFamily: 'Readex Pro',
                                       fontSize: 22.0,
+                                      letterSpacing: 0.0,
                                     ),
+                                minLines: null,
                                 maxLength: 100,
                                 maxLengthEnforcement:
                                     MaxLengthEnforcement.enforced,
@@ -445,12 +463,14 @@ class _SkillsWidgetState extends State<SkillsWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 22.0,
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w300,
                                       ),
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .labelMedium
                                       .override(
                                         fontFamily: 'Readex Pro',
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w200,
                                       ),
                                   enabledBorder: UnderlineInputBorder(
@@ -489,7 +509,9 @@ class _SkillsWidgetState extends State<SkillsWidget> {
                                     .override(
                                       fontFamily: 'Readex Pro',
                                       fontSize: 22.0,
+                                      letterSpacing: 0.0,
                                     ),
+                                minLines: null,
                                 maxLength: 100,
                                 maxLengthEnforcement:
                                     MaxLengthEnforcement.enforced,
@@ -536,6 +558,7 @@ class _SkillsWidgetState extends State<SkillsWidget> {
                                 fontFamily: 'Plus Jakarta Sans',
                                 color: Colors.white,
                                 fontSize: 16.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w600,
                               ),
                       elevation: 4.0,
@@ -574,6 +597,7 @@ class _SkillsWidgetState extends State<SkillsWidget> {
                                 fontFamily: 'Plus Jakarta Sans',
                                 color: FlutterFlowTheme.of(context).primary,
                                 fontSize: 16.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w600,
                               ),
                       elevation: 4.0,
@@ -604,6 +628,7 @@ class _SkillsWidgetState extends State<SkillsWidget> {
                                 fontFamily: 'Plus Jakarta Sans',
                                 color: FlutterFlowTheme.of(context).accent4,
                                 fontSize: 16.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w600,
                               ),
                       elevation: 4.0,

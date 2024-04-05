@@ -79,6 +79,7 @@ class _ChangeUserProfileWidgetState extends State<ChangeUserProfileWidget> {
                                 fontFamily: 'Outfit',
                                 color: const Color(0xFF15161E),
                                 fontSize: 32.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w600,
                               ),
                     ),
@@ -91,6 +92,7 @@ class _ChangeUserProfileWidgetState extends State<ChangeUserProfileWidget> {
                               fontFamily: 'Plus Jakarta Sans',
                               color: const Color(0xFF606A85),
                               fontSize: 14.0,
+                              letterSpacing: 0.0,
                               fontWeight: FontWeight.w500,
                             ),
                       ),
@@ -213,6 +215,7 @@ class _ChangeUserProfileWidgetState extends State<ChangeUserProfileWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         color: Colors.white,
+                                        letterSpacing: 0.0,
                                       ),
                                   elevation: 3.0,
                                   borderSide: const BorderSide(
@@ -247,6 +250,7 @@ class _ChangeUserProfileWidgetState extends State<ChangeUserProfileWidget> {
                                       fontFamily: 'Outfit',
                                       color: const Color(0xFF606A85),
                                       fontSize: 22.0,
+                                      letterSpacing: 0.0,
                                       fontWeight: FontWeight.w300,
                                     ),
                                 hintStyle: FlutterFlowTheme.of(context)
@@ -255,6 +259,7 @@ class _ChangeUserProfileWidgetState extends State<ChangeUserProfileWidget> {
                                       fontFamily: 'Plus Jakarta Sans',
                                       color: const Color(0xFF606A85),
                                       fontSize: 14.0,
+                                      letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
                                     ),
                                 enabledBorder: UnderlineInputBorder(
@@ -295,8 +300,10 @@ class _ChangeUserProfileWidgetState extends State<ChangeUserProfileWidget> {
                                     fontFamily: 'Outfit',
                                     color: const Color(0xFF15161E),
                                     fontSize: 22.0,
+                                    letterSpacing: 0.0,
                                     fontWeight: FontWeight.normal,
                                   ),
+                              minLines: null,
                               cursorColor: const Color(0xFF6F61EF),
                               validator: _model.firstnameControllerValidator
                                   .asValidator(context),
@@ -316,6 +323,7 @@ class _ChangeUserProfileWidgetState extends State<ChangeUserProfileWidget> {
                                       fontFamily: 'Outfit',
                                       color: const Color(0xFF606A85),
                                       fontSize: 22.0,
+                                      letterSpacing: 0.0,
                                       fontWeight: FontWeight.w300,
                                     ),
                                 hintStyle: FlutterFlowTheme.of(context)
@@ -324,6 +332,7 @@ class _ChangeUserProfileWidgetState extends State<ChangeUserProfileWidget> {
                                       fontFamily: 'Plus Jakarta Sans',
                                       color: const Color(0xFF606A85),
                                       fontSize: 14.0,
+                                      letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
                                     ),
                                 enabledBorder: UnderlineInputBorder(
@@ -364,8 +373,10 @@ class _ChangeUserProfileWidgetState extends State<ChangeUserProfileWidget> {
                                     fontFamily: 'Outfit',
                                     color: const Color(0xFF15161E),
                                     fontSize: 22.0,
+                                    letterSpacing: 0.0,
                                     fontWeight: FontWeight.normal,
                                   ),
+                              minLines: null,
                               cursorColor: const Color(0xFF6F61EF),
                               validator: _model.lastnameControllerValidator
                                   .asValidator(context),
@@ -433,6 +444,7 @@ class _ChangeUserProfileWidgetState extends State<ChangeUserProfileWidget> {
                                     fontFamily: 'Plus Jakarta Sans',
                                     color: Colors.white,
                                     fontSize: 16.0,
+                                    letterSpacing: 0.0,
                                     fontWeight: FontWeight.w600,
                                   ),
                           elevation: 4.0,
@@ -472,6 +484,7 @@ class _ChangeUserProfileWidgetState extends State<ChangeUserProfileWidget> {
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryBackground,
                                     fontSize: 16.0,
+                                    letterSpacing: 0.0,
                                     fontWeight: FontWeight.w600,
                                   ),
                           elevation: 4.0,

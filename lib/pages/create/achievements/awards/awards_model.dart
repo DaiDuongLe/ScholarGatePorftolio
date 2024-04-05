@@ -84,8 +84,6 @@ class AwardsModel extends FlutterFlowModel<AwardsWidget> {
     return null;
   }
 
-  /// Initialization and disposal methods.
-
   @override
   void initState(BuildContext context) {
     textController2Validator = _textController2Validator;
@@ -114,8 +112,4 @@ class AwardsModel extends FlutterFlowModel<AwardsWidget> {
     textFieldFocusNode6?.dispose();
     textController6?.dispose();
   }
-
-  /// Action blocks are added here.
-
-  /// Additional helper methods are added here.
 }

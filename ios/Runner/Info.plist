@@ -37,10 +37,10 @@
         <key>CFBundleTypeRole</key>
         <string>Editor</string>
         <key>CFBundleURLName</key>
-        <string>scholar_gate_portfolio</string>
+        <string>portfolio.com</string>
         <key>CFBundleURLSchemes</key>
         <array>
-        <string>com.scholargate.portfolio</string>
+        <string>scholargateportfolio</string>
         </array>
         </dict>
     </array>

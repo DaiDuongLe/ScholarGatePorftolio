@@ -75,6 +75,7 @@ class _PerformingArtsComponentWidgetState
                             FlutterFlowTheme.of(context).labelMedium.override(
                                   fontFamily: 'Readex Pro',
                                   fontSize: 22.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w300,
                                 ),
                         hintText:
@@ -82,6 +83,7 @@ class _PerformingArtsComponentWidgetState
                         hintStyle:
                             FlutterFlowTheme.of(context).labelMedium.override(
                                   fontFamily: 'Readex Pro',
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w200,
                                 ),
                         enabledBorder: UnderlineInputBorder(
@@ -116,8 +118,10 @@ class _PerformingArtsComponentWidgetState
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Readex Pro',
                             fontSize: 22.0,
+                            letterSpacing: 0.0,
                             fontWeight: FontWeight.normal,
                           ),
+                      minLines: null,
                       maxLength: 50,
                       keyboardType: TextInputType.url,
                       validator:
@@ -142,6 +146,7 @@ class _PerformingArtsComponentWidgetState
                               FlutterFlowTheme.of(context).labelMedium.override(
                                     fontFamily: 'Readex Pro',
                                     fontSize: 22.0,
+                                    letterSpacing: 0.0,
                                     fontWeight: FontWeight.w300,
                                   ),
                           hintText: 'Your comment/ discription ',
@@ -149,6 +154,7 @@ class _PerformingArtsComponentWidgetState
                               FlutterFlowTheme.of(context).labelMedium.override(
                                     fontFamily: 'Readex Pro',
                                     fontSize: 14.0,
+                                    letterSpacing: 0.0,
                                     fontWeight: FontWeight.w200,
                                   ),
                           enabledBorder: UnderlineInputBorder(
@@ -183,8 +189,10 @@ class _PerformingArtsComponentWidgetState
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Readex Pro',
                               fontSize: 22.0,
+                              letterSpacing: 0.0,
                               fontWeight: FontWeight.normal,
                             ),
+                        minLines: null,
                         keyboardType: TextInputType.url,
                         validator: _model.textController2Validator
                             .asValidator(context),

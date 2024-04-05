@@ -73,6 +73,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Outfit',
                   fontSize: 30.0,
+                  letterSpacing: 0.0,
                   fontWeight: FontWeight.w600,
                 ),
           ),
@@ -118,6 +119,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 25.0,
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w600,
                                       ),
                                 ),
@@ -138,6 +140,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -164,6 +167,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                             color: FlutterFlowTheme.of(context)
                                                 .primary,
                                             fontSize: 18.0,
+                                            letterSpacing: 0.0,
                                             decoration:
                                                 TextDecoration.underline,
                                           ),
@@ -189,6 +193,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 25.0,
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w600,
                                       ),
                                 ),
@@ -202,6 +207,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 16.0,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -214,6 +220,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 16.0,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -226,6 +233,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 16.0,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -238,6 +246,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 16.0,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -262,6 +271,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                             color: FlutterFlowTheme.of(context)
                                                 .primary,
                                             fontSize: 18.0,
+                                            letterSpacing: 0.0,
                                             decoration:
                                                 TextDecoration.underline,
                                           ),
@@ -287,6 +297,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 25.0,
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w600,
                                       ),
                                 ),
@@ -313,6 +324,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -326,6 +338,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -350,6 +363,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -360,6 +374,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                               .override(
                                                 fontFamily: 'Readex Pro',
                                                 fontSize: 16.0,
+                                                letterSpacing: 0.0,
                                               ),
                                         ),
                                         AuthUserStreamWidget(
@@ -372,6 +387,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -402,6 +418,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -415,6 +432,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -439,6 +457,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -449,6 +468,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                               .override(
                                                 fontFamily: 'Readex Pro',
                                                 fontSize: 16.0,
+                                                letterSpacing: 0.0,
                                               ),
                                         ),
                                         AuthUserStreamWidget(
@@ -461,6 +481,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -491,6 +512,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -504,6 +526,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -528,6 +551,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -538,6 +562,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                               .override(
                                                 fontFamily: 'Readex Pro',
                                                 fontSize: 16.0,
+                                                letterSpacing: 0.0,
                                               ),
                                         ),
                                         AuthUserStreamWidget(
@@ -550,6 +575,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -579,6 +605,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                             color: FlutterFlowTheme.of(context)
                                                 .primary,
                                             fontSize: 18.0,
+                                            letterSpacing: 0.0,
                                             decoration:
                                                 TextDecoration.underline,
                                           ),
@@ -604,6 +631,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 25.0,
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w600,
                                       ),
                                 ),
@@ -622,6 +650,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -643,6 +672,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -653,6 +683,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                               .override(
                                                 fontFamily: 'Readex Pro',
                                                 fontSize: 16.0,
+                                                letterSpacing: 0.0,
                                               ),
                                         ),
                                         AuthUserStreamWidget(
@@ -665,6 +696,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -687,6 +719,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -709,6 +742,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -719,6 +753,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                               .override(
                                                 fontFamily: 'Readex Pro',
                                                 fontSize: 16.0,
+                                                letterSpacing: 0.0,
                                               ),
                                         ),
                                         AuthUserStreamWidget(
@@ -731,6 +766,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 16.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -760,6 +796,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                             color: FlutterFlowTheme.of(context)
                                                 .primary,
                                             fontSize: 18.0,
+                                            letterSpacing: 0.0,
                                             decoration:
                                                 TextDecoration.underline,
                                           ),
@@ -785,6 +822,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 25.0,
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w600,
                                       ),
                                 ),
@@ -803,6 +841,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -822,6 +861,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -841,6 +881,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -860,6 +901,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -879,6 +921,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -905,6 +948,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                             color: FlutterFlowTheme.of(context)
                                                 .primary,
                                             fontSize: 18.0,
+                                            letterSpacing: 0.0,
                                             decoration:
                                                 TextDecoration.underline,
                                           ),
@@ -930,6 +974,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 25.0,
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w600,
                                       ),
                                 ),
@@ -948,6 +993,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -967,6 +1013,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -986,6 +1033,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -1005,6 +1053,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -1024,6 +1073,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -1050,6 +1100,7 @@ class _UserExperiencePageWidgetState extends State<UserExperiencePageWidget> {
                                             color: FlutterFlowTheme.of(context)
                                                 .primary,
                                             fontSize: 18.0,
+                                            letterSpacing: 0.0,
                                             decoration:
                                                 TextDecoration.underline,
                                           ),

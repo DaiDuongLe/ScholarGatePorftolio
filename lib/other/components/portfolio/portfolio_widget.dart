@@ -62,6 +62,7 @@ class _PortfolioWidgetState extends State<PortfolioWidget> {
               style: FlutterFlowTheme.of(context).bodyMedium.override(
                     fontFamily: 'Readex Pro',
                     fontSize: 16.0,
+                    letterSpacing: 0.0,
                   ),
             ),
           ),
@@ -74,6 +75,7 @@ class _PortfolioWidgetState extends State<PortfolioWidget> {
               style: FlutterFlowTheme.of(context).bodyMedium.override(
                     fontFamily: 'Readex Pro',
                     fontSize: 11.0,
+                    letterSpacing: 0.0,
                     fontStyle: FontStyle.italic,
                   ),
             ),

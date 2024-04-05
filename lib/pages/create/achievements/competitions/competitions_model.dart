@@ -84,8 +84,6 @@ class CompetitionsModel extends FlutterFlowModel<CompetitionsWidget> {
     return null;
   }
 
-  /// Initialization and disposal methods.
-
   @override
   void initState(BuildContext context) {
     dateController1Validator = _dateController1Validator;
@@ -114,8 +112,4 @@ class CompetitionsModel extends FlutterFlowModel<CompetitionsWidget> {
     dateFocusNode3?.dispose();
     dateController3?.dispose();
   }
-
-  /// Action blocks are added here.
-
-  /// Additional helper methods are added here.
 }

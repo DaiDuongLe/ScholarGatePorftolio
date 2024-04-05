@@ -104,6 +104,7 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                         fontFamily: 'Outfit',
                         color: const Color(0xFF15161E),
                         fontSize: 32.0,
+                        letterSpacing: 0.0,
                         fontWeight: FontWeight.w600,
                       ),
                 ),
@@ -115,6 +116,7 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                           fontFamily: 'Plus Jakarta Sans',
                           color: const Color(0xFF606A85),
                           fontSize: 20.0,
+                          letterSpacing: 0.0,
                           fontWeight: FontWeight.w500,
                         ),
                   ),
@@ -165,6 +167,7 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                                     fontFamily: 'Outfit',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 22.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w300,
                                                   ),
                                               hintStyle: FlutterFlowTheme.of(
@@ -175,6 +178,7 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                                         'Plus Jakarta Sans',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 14.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w200,
                                                   ),
                                               enabledBorder:
@@ -225,8 +229,10 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                                   fontFamily: 'Outfit',
                                                   color: const Color(0xFF15161E),
                                                   fontSize: 22.0,
+                                                  letterSpacing: 0.0,
                                                   fontWeight: FontWeight.normal,
                                                 ),
+                                            minLines: null,
                                             maxLength: 50,
                                             maxLengthEnforcement:
                                                 MaxLengthEnforcement.enforced,
@@ -267,6 +273,7 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                                     fontFamily: 'Outfit',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 22.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w300,
                                                   ),
                                               hintText:
@@ -279,6 +286,7 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                                         'Plus Jakarta Sans',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 14.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w200,
                                                   ),
                                               enabledBorder:
@@ -329,8 +337,10 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                                   fontFamily: 'Outfit',
                                                   color: const Color(0xFF15161E),
                                                   fontSize: 22.0,
+                                                  letterSpacing: 0.0,
                                                   fontWeight: FontWeight.normal,
                                                 ),
+                                            minLines: null,
                                             maxLength: 10,
                                             maxLengthEnforcement:
                                                 MaxLengthEnforcement.enforced,
@@ -392,6 +402,7 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                                     fontFamily: 'Outfit',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 22.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w300,
                                                   ),
                                               hintStyle: FlutterFlowTheme.of(
@@ -402,6 +413,7 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                                         'Plus Jakarta Sans',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 14.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w200,
                                                   ),
                                               enabledBorder:
@@ -452,8 +464,10 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                                   fontFamily: 'Outfit',
                                                   color: const Color(0xFF15161E),
                                                   fontSize: 22.0,
+                                                  letterSpacing: 0.0,
                                                   fontWeight: FontWeight.normal,
                                                 ),
+                                            minLines: null,
                                             maxLength: 50,
                                             maxLengthEnforcement:
                                                 MaxLengthEnforcement.enforced,
@@ -494,6 +508,7 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                                     fontFamily: 'Outfit',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 22.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w300,
                                                   ),
                                               hintText:
@@ -506,6 +521,7 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                                         'Plus Jakarta Sans',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 14.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w200,
                                                   ),
                                               enabledBorder:
@@ -556,8 +572,10 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                                   fontFamily: 'Outfit',
                                                   color: const Color(0xFF15161E),
                                                   fontSize: 22.0,
+                                                  letterSpacing: 0.0,
                                                   fontWeight: FontWeight.normal,
                                                 ),
+                                            minLines: null,
                                             maxLength: 10,
                                             maxLengthEnforcement:
                                                 MaxLengthEnforcement.enforced,
@@ -619,6 +637,7 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                                     fontFamily: 'Outfit',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 22.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w300,
                                                   ),
                                               hintStyle: FlutterFlowTheme.of(
@@ -629,6 +648,7 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                                         'Plus Jakarta Sans',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 14.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w200,
                                                   ),
                                               enabledBorder:
@@ -679,8 +699,10 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                                   fontFamily: 'Outfit',
                                                   color: const Color(0xFF15161E),
                                                   fontSize: 22.0,
+                                                  letterSpacing: 0.0,
                                                   fontWeight: FontWeight.normal,
                                                 ),
+                                            minLines: null,
                                             maxLength: 50,
                                             maxLengthEnforcement:
                                                 MaxLengthEnforcement.enforced,
@@ -721,6 +743,7 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                                     fontFamily: 'Outfit',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 22.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w300,
                                                   ),
                                               hintText:
@@ -733,6 +756,7 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                                         'Plus Jakarta Sans',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 14.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w200,
                                                   ),
                                               enabledBorder:
@@ -783,8 +807,10 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                                   fontFamily: 'Outfit',
                                                   color: const Color(0xFF15161E),
                                                   fontSize: 22.0,
+                                                  letterSpacing: 0.0,
                                                   fontWeight: FontWeight.normal,
                                                 ),
+                                            minLines: null,
                                             maxLength: 10,
                                             maxLengthEnforcement:
                                                 MaxLengthEnforcement.enforced,
@@ -852,6 +878,7 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                 fontFamily: 'Plus Jakarta Sans',
                                 color: Colors.white,
                                 fontSize: 16.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w600,
                               ),
                       elevation: 4.0,
@@ -896,6 +923,7 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                 fontFamily: 'Plus Jakarta Sans',
                                 color: FlutterFlowTheme.of(context).primary,
                                 fontSize: 16.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w600,
                               ),
                       elevation: 4.0,
@@ -926,6 +954,7 @@ class _CompetitionsWidgetState extends State<CompetitionsWidget> {
                                 fontFamily: 'Plus Jakarta Sans',
                                 color: FlutterFlowTheme.of(context).accent4,
                                 fontSize: 16.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w600,
                               ),
                       elevation: 4.0,

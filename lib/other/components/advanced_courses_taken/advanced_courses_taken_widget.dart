@@ -70,7 +70,10 @@ class _AdvancedCoursesTakenWidgetState
                       setState(() => _model.dropDownValue = val),
                   width: MediaQuery.sizeOf(context).width * 1.0,
                   height: 50.0,
-                  textStyle: FlutterFlowTheme.of(context).bodyMedium,
+                  textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
+                        fontFamily: 'Readex Pro',
+                        letterSpacing: 0.0,
+                      ),
                   hintText: 'Course taken',
                   icon: Icon(
                     Icons.keyboard_arrow_down_rounded,
@@ -108,9 +111,14 @@ class _AdvancedCoursesTakenWidgetState
                           FlutterFlowTheme.of(context).labelMedium.override(
                                 fontFamily: 'Readex Pro',
                                 fontSize: 14.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w300,
                               ),
-                      hintStyle: FlutterFlowTheme.of(context).labelMedium,
+                      hintStyle:
+                          FlutterFlowTheme.of(context).labelMedium.override(
+                                fontFamily: 'Readex Pro',
+                                letterSpacing: 0.0,
+                              ),
                       enabledBorder: UnderlineInputBorder(
                         borderSide: BorderSide(
                           color: FlutterFlowTheme.of(context).alternate,
@@ -143,7 +151,9 @@ class _AdvancedCoursesTakenWidgetState
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Readex Pro',
                           fontSize: 22.0,
+                          letterSpacing: 0.0,
                         ),
+                    minLines: null,
                     maxLength: 120,
                     maxLengthEnforcement: MaxLengthEnforcement.enforced,
                     validator:

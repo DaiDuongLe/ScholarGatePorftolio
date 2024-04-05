@@ -18,8 +18,6 @@ class ExperiencesModel extends FlutterFlowModel<ExperiencesWidget> {
   TextEditingController? textController3;
   String? Function(BuildContext, String?)? textController3Validator;
 
-  /// Initialization and disposal methods.
-
   @override
   void initState(BuildContext context) {}
 
@@ -34,8 +32,4 @@ class ExperiencesModel extends FlutterFlowModel<ExperiencesWidget> {
     textFieldFocusNode3?.dispose();
     textController3?.dispose();
   }
-
-  /// Action blocks are added here.
-
-  /// Additional helper methods are added here.
 }

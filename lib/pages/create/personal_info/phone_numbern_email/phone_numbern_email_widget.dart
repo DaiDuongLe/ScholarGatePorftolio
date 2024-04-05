@@ -89,6 +89,7 @@ class _PhoneNumbernEmailWidgetState extends State<PhoneNumbernEmailWidget> {
                           fontFamily: 'Outfit',
                           color: const Color(0xFF15161E),
                           fontSize: 32.0,
+                          letterSpacing: 0.0,
                           fontWeight: FontWeight.w600,
                         ),
                   ),
@@ -101,6 +102,7 @@ class _PhoneNumbernEmailWidgetState extends State<PhoneNumbernEmailWidget> {
                             fontFamily: 'Plus Jakarta Sans',
                             color: const Color(0xFF606A85),
                             fontSize: 14.0,
+                            letterSpacing: 0.0,
                             fontWeight: FontWeight.w500,
                           ),
                     ),
@@ -120,12 +122,13 @@ class _PhoneNumbernEmailWidgetState extends State<PhoneNumbernEmailWidget> {
                               autofocus: true,
                               obscureText: false,
                               decoration: InputDecoration(
-                                labelText: 'Phone Number (Optional)',
+                                labelText: 'Phone Number',
                                 labelStyle: FlutterFlowTheme.of(context)
                                     .labelMedium
                                     .override(
                                       fontFamily: 'Readex Pro',
                                       fontSize: 22.0,
+                                      letterSpacing: 0.0,
                                       fontWeight: FontWeight.w300,
                                     ),
                                 hintText: '(845)-999-999',
@@ -133,6 +136,7 @@ class _PhoneNumbernEmailWidgetState extends State<PhoneNumbernEmailWidget> {
                                     .labelMedium
                                     .override(
                                       fontFamily: 'Readex Pro',
+                                      letterSpacing: 0.0,
                                       fontWeight: FontWeight.w200,
                                     ),
                                 enabledBorder: UnderlineInputBorder(
@@ -170,7 +174,9 @@ class _PhoneNumbernEmailWidgetState extends State<PhoneNumbernEmailWidget> {
                                   .override(
                                     fontFamily: 'Readex Pro',
                                     fontSize: 22.0,
+                                    letterSpacing: 0.0,
                                   ),
+                              minLines: null,
                               validator: _model.phoneControllerValidator
                                   .asValidator(context),
                             ),
@@ -190,6 +196,7 @@ class _PhoneNumbernEmailWidgetState extends State<PhoneNumbernEmailWidget> {
                                     fontFamily: 'Outfit',
                                     color: const Color(0xFF606A85),
                                     fontSize: 22.0,
+                                    letterSpacing: 0.0,
                                     fontWeight: FontWeight.w300,
                                   ),
                               hintStyle: FlutterFlowTheme.of(context)
@@ -198,6 +205,7 @@ class _PhoneNumbernEmailWidgetState extends State<PhoneNumbernEmailWidget> {
                                     fontFamily: 'Plus Jakarta Sans',
                                     color: const Color(0xFF606A85),
                                     fontSize: 14.0,
+                                    letterSpacing: 0.0,
                                     fontWeight: FontWeight.w200,
                                   ),
                               enabledBorder: UnderlineInputBorder(
@@ -238,8 +246,10 @@ class _PhoneNumbernEmailWidgetState extends State<PhoneNumbernEmailWidget> {
                                   fontFamily: 'Outfit',
                                   color: const Color(0xFF15161E),
                                   fontSize: 22.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.normal,
                                 ),
+                            minLines: null,
                             keyboardType: TextInputType.emailAddress,
                             cursorColor: const Color(0xFF6F61EF),
                             validator: _model.emailControllerValidator
@@ -282,6 +292,7 @@ class _PhoneNumbernEmailWidgetState extends State<PhoneNumbernEmailWidget> {
                                   fontFamily: 'Plus Jakarta Sans',
                                   color: Colors.white,
                                   fontSize: 16.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
                                 ),
                         elevation: 4.0,
@@ -298,6 +309,17 @@ class _PhoneNumbernEmailWidgetState extends State<PhoneNumbernEmailWidget> {
                         const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 12.0),
                     child: FFButtonWidget(
                       onPressed: () async {
+                        if (_model.formKey.currentState == null ||
+                            !_model.formKey.currentState!.validate()) {
+                          return;
+                        }
+
+                        await currentUserReference!
+                            .update(createUsersRecordData(
+                          emailDisp: _model.emailController.text,
+                          phone: _model.phoneController.text,
+                        ));
+
                         context.pushNamed('UserPersonalPage');
                       },
                       text: 'Save & Preview',
@@ -313,6 +335,7 @@ class _PhoneNumbernEmailWidgetState extends State<PhoneNumbernEmailWidget> {
                                   fontFamily: 'Plus Jakarta Sans',
                                   color: FlutterFlowTheme.of(context).primary,
                                   fontSize: 16.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
                                 ),
                         elevation: 4.0,

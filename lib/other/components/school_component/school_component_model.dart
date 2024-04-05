@@ -42,8 +42,6 @@ class SchoolComponentModel extends FlutterFlowModel<SchoolComponentWidget> {
     return null;
   }
 
-  /// Initialization and disposal methods.
-
   @override
   void initState(BuildContext context) {
     textController1Validator = _textController1Validator;
@@ -62,8 +60,4 @@ class SchoolComponentModel extends FlutterFlowModel<SchoolComponentWidget> {
     textFieldFocusNode3?.dispose();
     textController3?.dispose();
   }
-
-  /// Action blocks are added here.
-
-  /// Additional helper methods are added here.
 }

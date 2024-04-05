@@ -132,6 +132,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                                 fontFamily: 'Plus Jakarta Sans',
                                                 color: const Color(0xFF101213),
                                                 fontSize: 36.0,
+                                                letterSpacing: 0.0,
                                                 fontWeight: FontWeight.w600,
                                               ),
                                         ),
@@ -143,6 +144,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                                 fontFamily: 'Plus Jakarta Sans',
                                                 color: const Color(0xFF101213),
                                                 fontSize: 16.0,
+                                                letterSpacing: 0.0,
                                                 fontWeight: FontWeight.normal,
                                               ),
                                         ),
@@ -177,6 +179,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                           fontFamily: 'Urbanist',
                                           color: const Color(0xFF101213),
                                           fontSize: 32.0,
+                                          letterSpacing: 0.0,
                                           fontWeight: FontWeight.w600,
                                         ),
                                   ),
@@ -191,6 +194,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                             fontFamily: 'Plus Jakarta Sans',
                                             color: const Color(0xFF57636C),
                                             fontSize: 14.0,
+                                            letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
                                     ),
@@ -204,6 +208,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                         controller:
                                             _model.emailAddressController,
                                         focusNode: _model.emailAddressFocusNode,
+                                        autofocus: false,
                                         autofillHints: const [AutofillHints.email],
                                         obscureText: false,
                                         decoration: InputDecoration(
@@ -216,6 +221,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                                         'Plus Jakarta Sans',
                                                     color: const Color(0xFF57636C),
                                                     fontSize: 16.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w500,
                                                   ),
                                           enabledBorder: OutlineInputBorder(
@@ -260,8 +266,10 @@ class _LoginWidgetState extends State<LoginWidget> {
                                               fontFamily: 'Plus Jakarta Sans',
                                               color: const Color(0xFF101213),
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                             ),
+                                        minLines: null,
                                         keyboardType:
                                             TextInputType.emailAddress,
                                         validator: _model
@@ -275,6 +283,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                     child: TextFormField(
                                       controller: _model.passwordController,
                                       focusNode: _model.passwordFocusNode,
+                                      autofocus: false,
                                       autofillHints: const [AutofillHints.password],
                                       obscureText: !_model.passwordVisibility,
                                       decoration: InputDecoration(
@@ -285,6 +294,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                               fontFamily: 'Plus Jakarta Sans',
                                               color: const Color(0xFF57636C),
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                             ),
                                         enabledBorder: OutlineInputBorder(
@@ -343,8 +353,10 @@ class _LoginWidgetState extends State<LoginWidget> {
                                             fontFamily: 'Plus Jakarta Sans',
                                             color: const Color(0xFF101213),
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
+                                      minLines: null,
                                       validator: _model
                                           .passwordControllerValidator
                                           .asValidator(context),
@@ -366,9 +378,8 @@ class _LoginWidgetState extends State<LoginWidget> {
                                           context.pushNamed('ForgotPassword');
                                         },
                                         child: RichText(
-                                          textScaleFactor:
-                                              MediaQuery.of(context)
-                                                  .textScaleFactor,
+                                          textScaler:
+                                              MediaQuery.of(context).textScaler,
                                           text: TextSpan(
                                             children: const [
                                               TextSpan(
@@ -380,6 +391,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                                 .bodyLarge
                                                 .override(
                                                   fontFamily: 'Readex Pro',
+                                                  letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w300,
                                                 ),
                                           ),
@@ -430,6 +442,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                               fontFamily: 'Plus Jakarta Sans',
                                               color: Colors.white,
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                             ),
                                         elevation: 3.0,
@@ -489,6 +502,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                                           color:
                                                               const Color(0xFF57636C),
                                                           fontSize: 14.0,
+                                                          letterSpacing: 0.0,
                                                           fontWeight:
                                                               FontWeight.w500,
                                                         ),
@@ -534,6 +548,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                               fontFamily: 'Plus Jakarta Sans',
                                               color: const Color(0xFF101213),
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                             ),
                                         elevation: 0.0,
@@ -582,6 +597,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                               fontFamily: 'Plus Jakarta Sans',
                                               color: const Color(0xFF101213),
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                             ),
                                         elevation: 0.0,
@@ -623,9 +639,8 @@ class _LoginWidgetState extends State<LoginWidget> {
                                           );
                                         },
                                         child: RichText(
-                                          textScaleFactor:
-                                              MediaQuery.of(context)
-                                                  .textScaleFactor,
+                                          textScaler:
+                                              MediaQuery.of(context).textScaler,
                                           text: TextSpan(
                                             children: [
                                               const TextSpan(
@@ -644,6 +659,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                                           color:
                                                               const Color(0xFF4B39EF),
                                                           fontSize: 14.0,
+                                                          letterSpacing: 0.0,
                                                           fontWeight:
                                                               FontWeight.w600,
                                                         ),
@@ -679,6 +695,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                                       'Plus Jakarta Sans',
                                                   color: const Color(0xFF101213),
                                                   fontSize: 14.0,
+                                                  letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
                                           ),

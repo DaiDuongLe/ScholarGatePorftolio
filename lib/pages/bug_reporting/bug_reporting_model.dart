@@ -15,8 +15,6 @@ class BugReportingModel extends FlutterFlowModel<BugReportingWidget> {
       FFUploadedFile(bytes: Uint8List.fromList([]));
   String uploadedFileUrl = '';
 
-  /// Initialization and disposal methods.
-
   @override
   void initState(BuildContext context) {}
 
@@ -26,8 +24,4 @@ class BugReportingModel extends FlutterFlowModel<BugReportingWidget> {
     textFieldFocusNode?.dispose();
     textController?.dispose();
   }
-
-  /// Action blocks are added here.
-
-  /// Additional helper methods are added here.
 }

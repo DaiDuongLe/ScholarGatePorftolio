@@ -64,6 +64,7 @@ class _LegalWidgetState extends State<LegalWidget> {
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Outfit',
                   fontSize: 30.0,
+                  letterSpacing: 0.0,
                   fontWeight: FontWeight.w600,
                 ),
           ),
@@ -102,6 +103,7 @@ class _LegalWidgetState extends State<LegalWidget> {
                             .override(
                               fontFamily: 'Readex Pro',
                               color: FlutterFlowTheme.of(context).primaryText,
+                              letterSpacing: 0.0,
                             ),
                         elevation: 3.0,
                         borderSide: BorderSide(
@@ -129,6 +131,7 @@ class _LegalWidgetState extends State<LegalWidget> {
                             .override(
                               fontFamily: 'Readex Pro',
                               color: FlutterFlowTheme.of(context).primaryText,
+                              letterSpacing: 0.0,
                             ),
                         elevation: 3.0,
                         borderSide: BorderSide(

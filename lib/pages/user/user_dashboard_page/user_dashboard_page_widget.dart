@@ -62,6 +62,7 @@ class _UserDashboardPageWidgetState extends State<UserDashboardPageWidget> {
               style: FlutterFlowTheme.of(context).bodyMedium.override(
                     fontFamily: 'Outfit',
                     fontSize: 30.0,
+                    letterSpacing: 0.0,
                     fontWeight: FontWeight.w600,
                   ),
             ),
@@ -210,6 +211,7 @@ class _UserDashboardPageWidgetState extends State<UserDashboardPageWidget> {
                                                         fontFamily:
                                                             'Readex Pro',
                                                         fontSize: 20.0,
+                                                        letterSpacing: 0.0,
                                                       ),
                                             );
                                           },
@@ -270,6 +272,7 @@ class _UserDashboardPageWidgetState extends State<UserDashboardPageWidget> {
                                                         fontFamily:
                                                             'Readex Pro',
                                                         fontSize: 20.0,
+                                                        letterSpacing: 0.0,
                                                       ),
                                             );
                                           },
@@ -355,21 +358,20 @@ class _UserDashboardPageWidgetState extends State<UserDashboardPageWidget> {
                                                       'Personal \ninformation',
                                                       textAlign:
                                                           TextAlign.center,
-                                                      style:
-                                                          FlutterFlowTheme.of(
-                                                                  context)
-                                                              .bodyMedium
-                                                              .override(
-                                                                fontFamily:
-                                                                    'Outfit',
-                                                                color: FlutterFlowTheme.of(
-                                                                        context)
-                                                                    .primaryText,
-                                                                fontSize: 22.0,
-                                                                fontWeight:
-                                                                    FontWeight
-                                                                        .w600,
-                                                              ),
+                                                      style: FlutterFlowTheme
+                                                              .of(context)
+                                                          .bodyMedium
+                                                          .override(
+                                                            fontFamily:
+                                                                'Outfit',
+                                                            color: FlutterFlowTheme
+                                                                    .of(context)
+                                                                .primaryText,
+                                                            fontSize: 22.0,
+                                                            letterSpacing: 0.0,
+                                                            fontWeight:
+                                                                FontWeight.w600,
+                                                          ),
                                                     ),
                                                   ),
                                                 ),
@@ -429,21 +431,20 @@ class _UserDashboardPageWidgetState extends State<UserDashboardPageWidget> {
                                                       'Education',
                                                       textAlign:
                                                           TextAlign.center,
-                                                      style:
-                                                          FlutterFlowTheme.of(
-                                                                  context)
-                                                              .bodyMedium
-                                                              .override(
-                                                                fontFamily:
-                                                                    'Outfit',
-                                                                color: FlutterFlowTheme.of(
-                                                                        context)
-                                                                    .primaryText,
-                                                                fontSize: 22.0,
-                                                                fontWeight:
-                                                                    FontWeight
-                                                                        .w600,
-                                                              ),
+                                                      style: FlutterFlowTheme
+                                                              .of(context)
+                                                          .bodyMedium
+                                                          .override(
+                                                            fontFamily:
+                                                                'Outfit',
+                                                            color: FlutterFlowTheme
+                                                                    .of(context)
+                                                                .primaryText,
+                                                            fontSize: 22.0,
+                                                            letterSpacing: 0.0,
+                                                            fontWeight:
+                                                                FontWeight.w600,
+                                                          ),
                                                     ),
                                                   ),
                                                 ),
@@ -524,6 +525,7 @@ class _UserDashboardPageWidgetState extends State<UserDashboardPageWidget> {
                                                                   .of(context)
                                                               .primaryText,
                                                           fontSize: 22.0,
+                                                          letterSpacing: 0.0,
                                                           fontWeight:
                                                               FontWeight.w600,
                                                         ),
@@ -591,6 +593,7 @@ class _UserDashboardPageWidgetState extends State<UserDashboardPageWidget> {
                                                                   .of(context)
                                                               .primaryText,
                                                           fontSize: 22.0,
+                                                          letterSpacing: 0.0,
                                                           fontWeight:
                                                               FontWeight.w600,
                                                         ),

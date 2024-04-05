@@ -73,6 +73,7 @@ class _UserAchievementPageWidgetState extends State<UserAchievementPageWidget> {
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Outfit',
                   fontSize: 30.0,
+                  letterSpacing: 0.0,
                   fontWeight: FontWeight.w600,
                 ),
           ),
@@ -118,6 +119,7 @@ class _UserAchievementPageWidgetState extends State<UserAchievementPageWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 25.0,
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w600,
                                       ),
                                 ),
@@ -136,6 +138,7 @@ class _UserAchievementPageWidgetState extends State<UserAchievementPageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -148,6 +151,7 @@ class _UserAchievementPageWidgetState extends State<UserAchievementPageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -167,6 +171,7 @@ class _UserAchievementPageWidgetState extends State<UserAchievementPageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -179,6 +184,7 @@ class _UserAchievementPageWidgetState extends State<UserAchievementPageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -198,6 +204,7 @@ class _UserAchievementPageWidgetState extends State<UserAchievementPageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -210,6 +217,7 @@ class _UserAchievementPageWidgetState extends State<UserAchievementPageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -236,6 +244,7 @@ class _UserAchievementPageWidgetState extends State<UserAchievementPageWidget> {
                                             color: FlutterFlowTheme.of(context)
                                                 .primary,
                                             fontSize: 18.0,
+                                            letterSpacing: 0.0,
                                             decoration:
                                                 TextDecoration.underline,
                                           ),
@@ -261,6 +270,7 @@ class _UserAchievementPageWidgetState extends State<UserAchievementPageWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 25.0,
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w600,
                                       ),
                                 ),
@@ -279,6 +289,7 @@ class _UserAchievementPageWidgetState extends State<UserAchievementPageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -291,6 +302,7 @@ class _UserAchievementPageWidgetState extends State<UserAchievementPageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -310,6 +322,7 @@ class _UserAchievementPageWidgetState extends State<UserAchievementPageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -322,6 +335,7 @@ class _UserAchievementPageWidgetState extends State<UserAchievementPageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -341,6 +355,7 @@ class _UserAchievementPageWidgetState extends State<UserAchievementPageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -353,6 +368,7 @@ class _UserAchievementPageWidgetState extends State<UserAchievementPageWidget> {
                                           .override(
                                             fontFamily: 'Readex Pro',
                                             fontSize: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ),
@@ -379,6 +395,7 @@ class _UserAchievementPageWidgetState extends State<UserAchievementPageWidget> {
                                             color: FlutterFlowTheme.of(context)
                                                 .primary,
                                             fontSize: 18.0,
+                                            letterSpacing: 0.0,
                                             decoration:
                                                 TextDecoration.underline,
                                           ),

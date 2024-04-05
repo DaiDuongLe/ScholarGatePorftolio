@@ -102,6 +102,7 @@ class _AdvancedCoursesWidgetState extends State<AdvancedCoursesWidget> {
                         fontFamily: 'Outfit',
                         color: const Color(0xFF15161E),
                         fontSize: 32.0,
+                        letterSpacing: 0.0,
                         fontWeight: FontWeight.w600,
                       ),
                 ),
@@ -113,6 +114,7 @@ class _AdvancedCoursesWidgetState extends State<AdvancedCoursesWidget> {
                           fontFamily: 'Plus Jakarta Sans',
                           color: const Color(0xFF606A85),
                           fontSize: 20.0,
+                          letterSpacing: 0.0,
                           fontWeight: FontWeight.w500,
                         ),
                   ),
@@ -126,741 +128,838 @@ class _AdvancedCoursesWidgetState extends State<AdvancedCoursesWidget> {
                       color: FlutterFlowTheme.of(context).primaryText,
                     ),
                   ),
-                  child: Column(
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Form(
-                        key: _model.formKey1,
-                        autovalidateMode: AutovalidateMode.disabled,
-                        child: Column(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 16.0, 0.0, 0.0),
-                              child: Container(
-                                width: MediaQuery.sizeOf(context).width * 1.0,
-                                height: 50.0,
-                                decoration: const BoxDecoration(),
-                                child: AuthUserStreamWidget(
-                                  builder: (context) =>
-                                      FlutterFlowDropDown<String>(
-                                    controller:
-                                        _model.dropDownValueController1 ??=
-                                            FormFieldController<String>(
-                                      _model.dropDownValue1 ??= valueOrDefault(
-                                          currentUserDocument
-                                              ?.advancedcourse1type,
-                                          ''),
-                                    ),
-                                    options: const [
-                                      'Advanced Placement® (AP)',
-                                      'International Baccalaureate® (IB)',
-                                      'Other (e.g. college level)'
-                                    ],
-                                    onChanged: (val) => setState(
-                                        () => _model.dropDownValue1 = val),
-                                    width:
-                                        MediaQuery.sizeOf(context).width * 1.0,
-                                    height: 50.0,
-                                    textStyle:
-                                        FlutterFlowTheme.of(context).bodyMedium,
-                                    hintText: 'Course taken',
-                                    icon: Icon(
-                                      Icons.keyboard_arrow_down_rounded,
-                                      color: FlutterFlowTheme.of(context)
-                                          .secondaryText,
-                                      size: 24.0,
-                                    ),
-                                    fillColor: FlutterFlowTheme.of(context)
-                                        .secondaryBackground,
-                                    elevation: 2.0,
-                                    borderColor:
-                                        FlutterFlowTheme.of(context).alternate,
-                                    borderWidth: 2.0,
-                                    borderRadius: 8.0,
-                                    margin: const EdgeInsetsDirectional.fromSTEB(
-                                        16.0, 4.0, 16.0, 4.0),
-                                    hidesUnderline: true,
-                                    isOverButton: true,
-                                    isSearchable: false,
-                                    isMultiSelect: false,
-                                  ),
-                                ),
-                              ),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 10.0, 0.0, 0.0),
-                              child: Container(
-                                width: MediaQuery.sizeOf(context).width * 1.0,
-                                height: 75.0,
-                                decoration: const BoxDecoration(),
-                                child: Padding(
-                                  padding: const EdgeInsetsDirectional.fromSTEB(
-                                      8.0, 0.0, 8.0, 0.0),
+                  child: SingleChildScrollView(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.max,
+                      children: [
+                        Form(
+                          key: _model.formKey1,
+                          autovalidateMode: AutovalidateMode.disabled,
+                          child: Column(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Padding(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 16.0, 0.0, 0.0),
+                                child: Container(
+                                  width: MediaQuery.sizeOf(context).width * 1.0,
+                                  height: 50.0,
+                                  decoration: const BoxDecoration(),
                                   child: AuthUserStreamWidget(
-                                    builder: (context) => TextFormField(
-                                      controller: _model.textController1,
-                                      focusNode: _model.textFieldFocusNode1,
-                                      autofocus: true,
-                                      obscureText: false,
-                                      decoration: InputDecoration(
-                                        labelStyle: FlutterFlowTheme.of(context)
-                                            .labelMedium
-                                            .override(
-                                              fontFamily: 'Readex Pro',
-                                              fontSize: 14.0,
-                                              fontWeight: FontWeight.w300,
-                                            ),
-                                        hintStyle: FlutterFlowTheme.of(context)
-                                            .labelMedium,
-                                        enabledBorder: UnderlineInputBorder(
-                                          borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .alternate,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
-                                        focusedBorder: UnderlineInputBorder(
-                                          borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .primary,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
-                                        errorBorder: UnderlineInputBorder(
-                                          borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .error,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
-                                        focusedErrorBorder:
-                                            UnderlineInputBorder(
-                                          borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .error,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
+                                    builder: (context) =>
+                                        FlutterFlowDropDown<String>(
+                                      controller:
+                                          _model.dropDownValueController1 ??=
+                                              FormFieldController<String>(
+                                        _model.dropDownValue1 ??=
+                                            valueOrDefault(
+                                                currentUserDocument
+                                                    ?.advancedcourse1type,
+                                                ''),
                                       ),
-                                      style: FlutterFlowTheme.of(context)
+                                      options: const [
+                                        'Advanced Placement® (AP)',
+                                        'International Baccalaureate® (IB)',
+                                        'Other (e.g. college level)'
+                                      ],
+                                      onChanged: (val) => setState(
+                                          () => _model.dropDownValue1 = val),
+                                      width: MediaQuery.sizeOf(context).width *
+                                          1.0,
+                                      height: 50.0,
+                                      textStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
                                             fontFamily: 'Readex Pro',
-                                            fontSize: 22.0,
+                                            letterSpacing: 0.0,
                                           ),
-                                      maxLength: 120,
-                                      maxLengthEnforcement:
-                                          MaxLengthEnforcement.enforced,
-                                      validator: _model.textController1Validator
-                                          .asValidator(context),
+                                      hintText: 'Course taken',
+                                      icon: Icon(
+                                        Icons.keyboard_arrow_down_rounded,
+                                        color: FlutterFlowTheme.of(context)
+                                            .secondaryText,
+                                        size: 24.0,
+                                      ),
+                                      fillColor: FlutterFlowTheme.of(context)
+                                          .secondaryBackground,
+                                      elevation: 2.0,
+                                      borderColor: FlutterFlowTheme.of(context)
+                                          .alternate,
+                                      borderWidth: 2.0,
+                                      borderRadius: 8.0,
+                                      margin: const EdgeInsetsDirectional.fromSTEB(
+                                          16.0, 4.0, 16.0, 4.0),
+                                      hidesUnderline: true,
+                                      isOverButton: true,
+                                      isSearchable: false,
+                                      isMultiSelect: false,
                                     ),
                                   ),
                                 ),
                               ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      Divider(
-                        thickness: 10.0,
-                        color: FlutterFlowTheme.of(context).accent4,
-                      ),
-                      Form(
-                        key: _model.formKey4,
-                        autovalidateMode: AutovalidateMode.disabled,
-                        child: Column(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 16.0, 0.0, 0.0),
-                              child: Container(
-                                width: MediaQuery.sizeOf(context).width * 1.0,
-                                height: 50.0,
-                                decoration: const BoxDecoration(),
-                                child: AuthUserStreamWidget(
-                                  builder: (context) =>
-                                      FlutterFlowDropDown<String>(
-                                    controller:
-                                        _model.dropDownValueController2 ??=
-                                            FormFieldController<String>(
-                                      _model.dropDownValue2 ??= valueOrDefault(
-                                          currentUserDocument
-                                              ?.advancedcourse2type,
-                                          ''),
-                                    ),
-                                    options: const [
-                                      'Advanced Placement® (AP)',
-                                      'International Baccalaureate® (IB)',
-                                      'Other (e.g. college level)'
-                                    ],
-                                    onChanged: (val) => setState(
-                                        () => _model.dropDownValue2 = val),
-                                    width:
-                                        MediaQuery.sizeOf(context).width * 1.0,
-                                    height: 50.0,
-                                    textStyle:
-                                        FlutterFlowTheme.of(context).bodyMedium,
-                                    hintText: 'Course taken',
-                                    icon: Icon(
-                                      Icons.keyboard_arrow_down_rounded,
-                                      color: FlutterFlowTheme.of(context)
-                                          .secondaryText,
-                                      size: 24.0,
-                                    ),
-                                    fillColor: FlutterFlowTheme.of(context)
-                                        .secondaryBackground,
-                                    elevation: 2.0,
-                                    borderColor:
-                                        FlutterFlowTheme.of(context).alternate,
-                                    borderWidth: 2.0,
-                                    borderRadius: 8.0,
-                                    margin: const EdgeInsetsDirectional.fromSTEB(
-                                        16.0, 4.0, 16.0, 4.0),
-                                    hidesUnderline: true,
-                                    isOverButton: true,
-                                    isSearchable: false,
-                                    isMultiSelect: false,
-                                  ),
-                                ),
-                              ),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 10.0, 0.0, 0.0),
-                              child: Container(
-                                width: MediaQuery.sizeOf(context).width * 1.0,
-                                height: 75.0,
-                                decoration: const BoxDecoration(),
-                                child: Padding(
-                                  padding: const EdgeInsetsDirectional.fromSTEB(
-                                      8.0, 0.0, 8.0, 0.0),
-                                  child: AuthUserStreamWidget(
-                                    builder: (context) => TextFormField(
-                                      controller: _model.textController2,
-                                      focusNode: _model.textFieldFocusNode2,
-                                      autofocus: true,
-                                      obscureText: false,
-                                      decoration: InputDecoration(
-                                        labelStyle: FlutterFlowTheme.of(context)
-                                            .labelMedium
+                              Padding(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 10.0, 0.0, 0.0),
+                                child: Container(
+                                  width: MediaQuery.sizeOf(context).width * 1.0,
+                                  height: 75.0,
+                                  decoration: const BoxDecoration(),
+                                  child: Padding(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
+                                        8.0, 0.0, 8.0, 0.0),
+                                    child: AuthUserStreamWidget(
+                                      builder: (context) => TextFormField(
+                                        controller: _model.textController1,
+                                        focusNode: _model.textFieldFocusNode1,
+                                        autofocus: true,
+                                        obscureText: false,
+                                        decoration: InputDecoration(
+                                          labelStyle:
+                                              FlutterFlowTheme.of(context)
+                                                  .labelMedium
+                                                  .override(
+                                                    fontFamily: 'Readex Pro',
+                                                    fontSize: 14.0,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w300,
+                                                  ),
+                                          hintStyle:
+                                              FlutterFlowTheme.of(context)
+                                                  .labelMedium
+                                                  .override(
+                                                    fontFamily: 'Readex Pro',
+                                                    letterSpacing: 0.0,
+                                                  ),
+                                          enabledBorder: UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .alternate,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                          ),
+                                          focusedBorder: UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primary,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                          ),
+                                          errorBorder: UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .error,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                          ),
+                                          focusedErrorBorder:
+                                              UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .error,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                          ),
+                                        ),
+                                        style: FlutterFlowTheme.of(context)
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Readex Pro',
-                                              fontSize: 14.0,
-                                              fontWeight: FontWeight.w300,
+                                              fontSize: 22.0,
+                                              letterSpacing: 0.0,
                                             ),
-                                        hintStyle: FlutterFlowTheme.of(context)
-                                            .labelMedium,
-                                        enabledBorder: UnderlineInputBorder(
-                                          borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .alternate,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
-                                        focusedBorder: UnderlineInputBorder(
-                                          borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .primary,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
-                                        errorBorder: UnderlineInputBorder(
-                                          borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .error,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
-                                        focusedErrorBorder:
-                                            UnderlineInputBorder(
-                                          borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .error,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
+                                        minLines: null,
+                                        maxLength: 120,
+                                        maxLengthEnforcement:
+                                            MaxLengthEnforcement.enforced,
+                                        validator: _model
+                                            .textController1Validator
+                                            .asValidator(context),
                                       ),
-                                      style: FlutterFlowTheme.of(context)
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Divider(
+                          thickness: 10.0,
+                          color: FlutterFlowTheme.of(context).accent4,
+                        ),
+                        Form(
+                          key: _model.formKey4,
+                          autovalidateMode: AutovalidateMode.disabled,
+                          child: Column(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Padding(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 16.0, 0.0, 0.0),
+                                child: Container(
+                                  width: MediaQuery.sizeOf(context).width * 1.0,
+                                  height: 50.0,
+                                  decoration: const BoxDecoration(),
+                                  child: AuthUserStreamWidget(
+                                    builder: (context) =>
+                                        FlutterFlowDropDown<String>(
+                                      controller:
+                                          _model.dropDownValueController2 ??=
+                                              FormFieldController<String>(
+                                        _model.dropDownValue2 ??=
+                                            valueOrDefault(
+                                                currentUserDocument
+                                                    ?.advancedcourse2type,
+                                                ''),
+                                      ),
+                                      options: const [
+                                        'Advanced Placement® (AP)',
+                                        'International Baccalaureate® (IB)',
+                                        'Other (e.g. college level)'
+                                      ],
+                                      onChanged: (val) => setState(
+                                          () => _model.dropDownValue2 = val),
+                                      width: MediaQuery.sizeOf(context).width *
+                                          1.0,
+                                      height: 50.0,
+                                      textStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
                                             fontFamily: 'Readex Pro',
-                                            fontSize: 22.0,
+                                            letterSpacing: 0.0,
                                           ),
-                                      maxLength: 120,
-                                      maxLengthEnforcement:
-                                          MaxLengthEnforcement.enforced,
-                                      validator: _model.textController2Validator
-                                          .asValidator(context),
+                                      hintText: 'Course taken',
+                                      icon: Icon(
+                                        Icons.keyboard_arrow_down_rounded,
+                                        color: FlutterFlowTheme.of(context)
+                                            .secondaryText,
+                                        size: 24.0,
+                                      ),
+                                      fillColor: FlutterFlowTheme.of(context)
+                                          .secondaryBackground,
+                                      elevation: 2.0,
+                                      borderColor: FlutterFlowTheme.of(context)
+                                          .alternate,
+                                      borderWidth: 2.0,
+                                      borderRadius: 8.0,
+                                      margin: const EdgeInsetsDirectional.fromSTEB(
+                                          16.0, 4.0, 16.0, 4.0),
+                                      hidesUnderline: true,
+                                      isOverButton: true,
+                                      isSearchable: false,
+                                      isMultiSelect: false,
                                     ),
                                   ),
                                 ),
                               ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      Divider(
-                        thickness: 10.0,
-                        color: FlutterFlowTheme.of(context).accent4,
-                      ),
-                      Form(
-                        key: _model.formKey5,
-                        autovalidateMode: AutovalidateMode.disabled,
-                        child: Column(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 16.0, 0.0, 0.0),
-                              child: Container(
-                                width: MediaQuery.sizeOf(context).width * 1.0,
-                                height: 50.0,
-                                decoration: const BoxDecoration(),
-                                child: AuthUserStreamWidget(
-                                  builder: (context) =>
-                                      FlutterFlowDropDown<String>(
-                                    controller:
-                                        _model.dropDownValueController3 ??=
-                                            FormFieldController<String>(
-                                      _model.dropDownValue3 ??= valueOrDefault(
-                                          currentUserDocument
-                                              ?.advancedcourse3type,
-                                          ''),
-                                    ),
-                                    options: const [
-                                      'Advanced Placement® (AP)',
-                                      'International Baccalaureate® (IB)',
-                                      'Other (e.g. college level)'
-                                    ],
-                                    onChanged: (val) => setState(
-                                        () => _model.dropDownValue3 = val),
-                                    width:
-                                        MediaQuery.sizeOf(context).width * 1.0,
-                                    height: 50.0,
-                                    textStyle:
-                                        FlutterFlowTheme.of(context).bodyMedium,
-                                    hintText: 'Course taken',
-                                    icon: Icon(
-                                      Icons.keyboard_arrow_down_rounded,
-                                      color: FlutterFlowTheme.of(context)
-                                          .secondaryText,
-                                      size: 24.0,
-                                    ),
-                                    fillColor: FlutterFlowTheme.of(context)
-                                        .secondaryBackground,
-                                    elevation: 2.0,
-                                    borderColor:
-                                        FlutterFlowTheme.of(context).alternate,
-                                    borderWidth: 2.0,
-                                    borderRadius: 8.0,
-                                    margin: const EdgeInsetsDirectional.fromSTEB(
-                                        16.0, 4.0, 16.0, 4.0),
-                                    hidesUnderline: true,
-                                    isOverButton: true,
-                                    isSearchable: false,
-                                    isMultiSelect: false,
-                                  ),
-                                ),
-                              ),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 10.0, 0.0, 0.0),
-                              child: Container(
-                                width: MediaQuery.sizeOf(context).width * 1.0,
-                                height: 75.0,
-                                decoration: const BoxDecoration(),
-                                child: Padding(
-                                  padding: const EdgeInsetsDirectional.fromSTEB(
-                                      8.0, 0.0, 8.0, 0.0),
-                                  child: AuthUserStreamWidget(
-                                    builder: (context) => TextFormField(
-                                      controller: _model.textController3,
-                                      focusNode: _model.textFieldFocusNode3,
-                                      autofocus: true,
-                                      obscureText: false,
-                                      decoration: InputDecoration(
-                                        labelStyle: FlutterFlowTheme.of(context)
-                                            .labelMedium
+                              Padding(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 10.0, 0.0, 0.0),
+                                child: Container(
+                                  width: MediaQuery.sizeOf(context).width * 1.0,
+                                  height: 75.0,
+                                  decoration: const BoxDecoration(),
+                                  child: Padding(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
+                                        8.0, 0.0, 8.0, 0.0),
+                                    child: AuthUserStreamWidget(
+                                      builder: (context) => TextFormField(
+                                        controller: _model.textController2,
+                                        focusNode: _model.textFieldFocusNode2,
+                                        autofocus: true,
+                                        obscureText: false,
+                                        decoration: InputDecoration(
+                                          labelStyle:
+                                              FlutterFlowTheme.of(context)
+                                                  .labelMedium
+                                                  .override(
+                                                    fontFamily: 'Readex Pro',
+                                                    fontSize: 14.0,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w300,
+                                                  ),
+                                          hintStyle:
+                                              FlutterFlowTheme.of(context)
+                                                  .labelMedium
+                                                  .override(
+                                                    fontFamily: 'Readex Pro',
+                                                    letterSpacing: 0.0,
+                                                  ),
+                                          enabledBorder: UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .alternate,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                          ),
+                                          focusedBorder: UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primary,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                          ),
+                                          errorBorder: UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .error,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                          ),
+                                          focusedErrorBorder:
+                                              UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .error,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                          ),
+                                        ),
+                                        style: FlutterFlowTheme.of(context)
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Readex Pro',
-                                              fontSize: 14.0,
-                                              fontWeight: FontWeight.w300,
+                                              fontSize: 22.0,
+                                              letterSpacing: 0.0,
                                             ),
-                                        hintStyle: FlutterFlowTheme.of(context)
-                                            .labelMedium,
-                                        enabledBorder: UnderlineInputBorder(
-                                          borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .alternate,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
-                                        focusedBorder: UnderlineInputBorder(
-                                          borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .primary,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
-                                        errorBorder: UnderlineInputBorder(
-                                          borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .error,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
-                                        focusedErrorBorder:
-                                            UnderlineInputBorder(
-                                          borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .error,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
+                                        minLines: null,
+                                        maxLength: 120,
+                                        maxLengthEnforcement:
+                                            MaxLengthEnforcement.enforced,
+                                        validator: _model
+                                            .textController2Validator
+                                            .asValidator(context),
                                       ),
-                                      style: FlutterFlowTheme.of(context)
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Divider(
+                          thickness: 10.0,
+                          color: FlutterFlowTheme.of(context).accent4,
+                        ),
+                        Form(
+                          key: _model.formKey5,
+                          autovalidateMode: AutovalidateMode.disabled,
+                          child: Column(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Padding(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 16.0, 0.0, 0.0),
+                                child: Container(
+                                  width: MediaQuery.sizeOf(context).width * 1.0,
+                                  height: 50.0,
+                                  decoration: const BoxDecoration(),
+                                  child: AuthUserStreamWidget(
+                                    builder: (context) =>
+                                        FlutterFlowDropDown<String>(
+                                      controller:
+                                          _model.dropDownValueController3 ??=
+                                              FormFieldController<String>(
+                                        _model.dropDownValue3 ??=
+                                            valueOrDefault(
+                                                currentUserDocument
+                                                    ?.advancedcourse3type,
+                                                ''),
+                                      ),
+                                      options: const [
+                                        'Advanced Placement® (AP)',
+                                        'International Baccalaureate® (IB)',
+                                        'Other (e.g. college level)'
+                                      ],
+                                      onChanged: (val) => setState(
+                                          () => _model.dropDownValue3 = val),
+                                      width: MediaQuery.sizeOf(context).width *
+                                          1.0,
+                                      height: 50.0,
+                                      textStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
                                             fontFamily: 'Readex Pro',
-                                            fontSize: 22.0,
+                                            letterSpacing: 0.0,
                                           ),
-                                      maxLength: 120,
-                                      maxLengthEnforcement:
-                                          MaxLengthEnforcement.enforced,
-                                      validator: _model.textController3Validator
-                                          .asValidator(context),
+                                      hintText: 'Course taken',
+                                      icon: Icon(
+                                        Icons.keyboard_arrow_down_rounded,
+                                        color: FlutterFlowTheme.of(context)
+                                            .secondaryText,
+                                        size: 24.0,
+                                      ),
+                                      fillColor: FlutterFlowTheme.of(context)
+                                          .secondaryBackground,
+                                      elevation: 2.0,
+                                      borderColor: FlutterFlowTheme.of(context)
+                                          .alternate,
+                                      borderWidth: 2.0,
+                                      borderRadius: 8.0,
+                                      margin: const EdgeInsetsDirectional.fromSTEB(
+                                          16.0, 4.0, 16.0, 4.0),
+                                      hidesUnderline: true,
+                                      isOverButton: true,
+                                      isSearchable: false,
+                                      isMultiSelect: false,
                                     ),
                                   ),
                                 ),
                               ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      Divider(
-                        thickness: 10.0,
-                        color: FlutterFlowTheme.of(context).accent4,
-                      ),
-                      Form(
-                        key: _model.formKey2,
-                        autovalidateMode: AutovalidateMode.disabled,
-                        child: Column(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 16.0, 0.0, 0.0),
-                              child: Container(
-                                width: MediaQuery.sizeOf(context).width * 1.0,
-                                height: 50.0,
-                                decoration: const BoxDecoration(),
-                                child: AuthUserStreamWidget(
-                                  builder: (context) =>
-                                      FlutterFlowDropDown<String>(
-                                    controller:
-                                        _model.dropDownValueController4 ??=
-                                            FormFieldController<String>(
-                                      _model.dropDownValue4 ??= valueOrDefault(
-                                          currentUserDocument
-                                              ?.advancedcourse4type,
-                                          ''),
-                                    ),
-                                    options: const [
-                                      'Advanced Placement® (AP)',
-                                      'International Baccalaureate® (IB)',
-                                      'Other (e.g. college level)'
-                                    ],
-                                    onChanged: (val) => setState(
-                                        () => _model.dropDownValue4 = val),
-                                    width:
-                                        MediaQuery.sizeOf(context).width * 1.0,
-                                    height: 50.0,
-                                    textStyle:
-                                        FlutterFlowTheme.of(context).bodyMedium,
-                                    hintText: 'Course taken',
-                                    icon: Icon(
-                                      Icons.keyboard_arrow_down_rounded,
-                                      color: FlutterFlowTheme.of(context)
-                                          .secondaryText,
-                                      size: 24.0,
-                                    ),
-                                    fillColor: FlutterFlowTheme.of(context)
-                                        .secondaryBackground,
-                                    elevation: 2.0,
-                                    borderColor:
-                                        FlutterFlowTheme.of(context).alternate,
-                                    borderWidth: 2.0,
-                                    borderRadius: 8.0,
-                                    margin: const EdgeInsetsDirectional.fromSTEB(
-                                        16.0, 4.0, 16.0, 4.0),
-                                    hidesUnderline: true,
-                                    isOverButton: true,
-                                    isSearchable: false,
-                                    isMultiSelect: false,
-                                  ),
-                                ),
-                              ),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 10.0, 0.0, 0.0),
-                              child: Container(
-                                width: MediaQuery.sizeOf(context).width * 1.0,
-                                height: 75.0,
-                                decoration: const BoxDecoration(),
-                                child: Padding(
-                                  padding: const EdgeInsetsDirectional.fromSTEB(
-                                      8.0, 0.0, 8.0, 0.0),
-                                  child: AuthUserStreamWidget(
-                                    builder: (context) => TextFormField(
-                                      controller: _model.textController4,
-                                      focusNode: _model.textFieldFocusNode4,
-                                      autofocus: true,
-                                      obscureText: false,
-                                      decoration: InputDecoration(
-                                        labelStyle: FlutterFlowTheme.of(context)
-                                            .labelMedium
+                              Padding(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 10.0, 0.0, 0.0),
+                                child: Container(
+                                  width: MediaQuery.sizeOf(context).width * 1.0,
+                                  height: 75.0,
+                                  decoration: const BoxDecoration(),
+                                  child: Padding(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
+                                        8.0, 0.0, 8.0, 0.0),
+                                    child: AuthUserStreamWidget(
+                                      builder: (context) => TextFormField(
+                                        controller: _model.textController3,
+                                        focusNode: _model.textFieldFocusNode3,
+                                        autofocus: true,
+                                        obscureText: false,
+                                        decoration: InputDecoration(
+                                          labelStyle:
+                                              FlutterFlowTheme.of(context)
+                                                  .labelMedium
+                                                  .override(
+                                                    fontFamily: 'Readex Pro',
+                                                    fontSize: 14.0,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w300,
+                                                  ),
+                                          hintStyle:
+                                              FlutterFlowTheme.of(context)
+                                                  .labelMedium
+                                                  .override(
+                                                    fontFamily: 'Readex Pro',
+                                                    letterSpacing: 0.0,
+                                                  ),
+                                          enabledBorder: UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .alternate,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                          ),
+                                          focusedBorder: UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primary,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                          ),
+                                          errorBorder: UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .error,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                          ),
+                                          focusedErrorBorder:
+                                              UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .error,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                          ),
+                                        ),
+                                        style: FlutterFlowTheme.of(context)
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Readex Pro',
-                                              fontSize: 14.0,
-                                              fontWeight: FontWeight.w300,
+                                              fontSize: 22.0,
+                                              letterSpacing: 0.0,
                                             ),
-                                        hintStyle: FlutterFlowTheme.of(context)
-                                            .labelMedium,
-                                        enabledBorder: UnderlineInputBorder(
-                                          borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .alternate,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
-                                        focusedBorder: UnderlineInputBorder(
-                                          borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .primary,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
-                                        errorBorder: UnderlineInputBorder(
-                                          borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .error,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
-                                        focusedErrorBorder:
-                                            UnderlineInputBorder(
-                                          borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .error,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
+                                        minLines: null,
+                                        maxLength: 120,
+                                        maxLengthEnforcement:
+                                            MaxLengthEnforcement.enforced,
+                                        validator: _model
+                                            .textController3Validator
+                                            .asValidator(context),
                                       ),
-                                      style: FlutterFlowTheme.of(context)
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Divider(
+                          thickness: 10.0,
+                          color: FlutterFlowTheme.of(context).accent4,
+                        ),
+                        Form(
+                          key: _model.formKey2,
+                          autovalidateMode: AutovalidateMode.disabled,
+                          child: Column(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Padding(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 16.0, 0.0, 0.0),
+                                child: Container(
+                                  width: MediaQuery.sizeOf(context).width * 1.0,
+                                  height: 50.0,
+                                  decoration: const BoxDecoration(),
+                                  child: AuthUserStreamWidget(
+                                    builder: (context) =>
+                                        FlutterFlowDropDown<String>(
+                                      controller:
+                                          _model.dropDownValueController4 ??=
+                                              FormFieldController<String>(
+                                        _model.dropDownValue4 ??=
+                                            valueOrDefault(
+                                                currentUserDocument
+                                                    ?.advancedcourse4type,
+                                                ''),
+                                      ),
+                                      options: const [
+                                        'Advanced Placement® (AP)',
+                                        'International Baccalaureate® (IB)',
+                                        'Other (e.g. college level)'
+                                      ],
+                                      onChanged: (val) => setState(
+                                          () => _model.dropDownValue4 = val),
+                                      width: MediaQuery.sizeOf(context).width *
+                                          1.0,
+                                      height: 50.0,
+                                      textStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
                                             fontFamily: 'Readex Pro',
-                                            fontSize: 22.0,
+                                            letterSpacing: 0.0,
                                           ),
-                                      maxLength: 120,
-                                      maxLengthEnforcement:
-                                          MaxLengthEnforcement.enforced,
-                                      validator: _model.textController4Validator
-                                          .asValidator(context),
+                                      hintText: 'Course taken',
+                                      icon: Icon(
+                                        Icons.keyboard_arrow_down_rounded,
+                                        color: FlutterFlowTheme.of(context)
+                                            .secondaryText,
+                                        size: 24.0,
+                                      ),
+                                      fillColor: FlutterFlowTheme.of(context)
+                                          .secondaryBackground,
+                                      elevation: 2.0,
+                                      borderColor: FlutterFlowTheme.of(context)
+                                          .alternate,
+                                      borderWidth: 2.0,
+                                      borderRadius: 8.0,
+                                      margin: const EdgeInsetsDirectional.fromSTEB(
+                                          16.0, 4.0, 16.0, 4.0),
+                                      hidesUnderline: true,
+                                      isOverButton: true,
+                                      isSearchable: false,
+                                      isMultiSelect: false,
                                     ),
                                   ),
                                 ),
                               ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      Divider(
-                        thickness: 10.0,
-                        color: FlutterFlowTheme.of(context).accent4,
-                      ),
-                      Form(
-                        key: _model.formKey3,
-                        autovalidateMode: AutovalidateMode.disabled,
-                        child: Column(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 16.0, 0.0, 0.0),
-                              child: Container(
-                                width: MediaQuery.sizeOf(context).width * 1.0,
-                                height: 50.0,
-                                decoration: const BoxDecoration(),
-                                child: AuthUserStreamWidget(
-                                  builder: (context) =>
-                                      FlutterFlowDropDown<String>(
-                                    controller:
-                                        _model.dropDownValueController5 ??=
-                                            FormFieldController<String>(
-                                      _model.dropDownValue5 ??= valueOrDefault(
-                                          currentUserDocument
-                                              ?.advancedcourse5type,
-                                          ''),
-                                    ),
-                                    options: const [
-                                      'Advanced Placement® (AP)',
-                                      'International Baccalaureate® (IB)',
-                                      'Other (e.g. college level)'
-                                    ],
-                                    onChanged: (val) => setState(
-                                        () => _model.dropDownValue5 = val),
-                                    width:
-                                        MediaQuery.sizeOf(context).width * 1.0,
-                                    height: 50.0,
-                                    textStyle:
-                                        FlutterFlowTheme.of(context).bodyMedium,
-                                    hintText: 'Course taken',
-                                    icon: Icon(
-                                      Icons.keyboard_arrow_down_rounded,
-                                      color: FlutterFlowTheme.of(context)
-                                          .secondaryText,
-                                      size: 24.0,
-                                    ),
-                                    fillColor: FlutterFlowTheme.of(context)
-                                        .secondaryBackground,
-                                    elevation: 2.0,
-                                    borderColor:
-                                        FlutterFlowTheme.of(context).alternate,
-                                    borderWidth: 2.0,
-                                    borderRadius: 8.0,
-                                    margin: const EdgeInsetsDirectional.fromSTEB(
-                                        16.0, 4.0, 16.0, 4.0),
-                                    hidesUnderline: true,
-                                    isOverButton: true,
-                                    isSearchable: false,
-                                    isMultiSelect: false,
-                                  ),
-                                ),
-                              ),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 10.0, 0.0, 0.0),
-                              child: Container(
-                                width: MediaQuery.sizeOf(context).width * 1.0,
-                                height: 75.0,
-                                decoration: const BoxDecoration(),
-                                child: Padding(
-                                  padding: const EdgeInsetsDirectional.fromSTEB(
-                                      8.0, 0.0, 8.0, 0.0),
-                                  child: AuthUserStreamWidget(
-                                    builder: (context) => TextFormField(
-                                      controller: _model.textController5,
-                                      focusNode: _model.textFieldFocusNode5,
-                                      autofocus: true,
-                                      obscureText: false,
-                                      decoration: InputDecoration(
-                                        labelStyle: FlutterFlowTheme.of(context)
-                                            .labelMedium
+                              Padding(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 10.0, 0.0, 0.0),
+                                child: Container(
+                                  width: MediaQuery.sizeOf(context).width * 1.0,
+                                  height: 75.0,
+                                  decoration: const BoxDecoration(),
+                                  child: Padding(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
+                                        8.0, 0.0, 8.0, 0.0),
+                                    child: AuthUserStreamWidget(
+                                      builder: (context) => TextFormField(
+                                        controller: _model.textController4,
+                                        focusNode: _model.textFieldFocusNode4,
+                                        autofocus: true,
+                                        obscureText: false,
+                                        decoration: InputDecoration(
+                                          labelStyle:
+                                              FlutterFlowTheme.of(context)
+                                                  .labelMedium
+                                                  .override(
+                                                    fontFamily: 'Readex Pro',
+                                                    fontSize: 14.0,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w300,
+                                                  ),
+                                          hintStyle:
+                                              FlutterFlowTheme.of(context)
+                                                  .labelMedium
+                                                  .override(
+                                                    fontFamily: 'Readex Pro',
+                                                    letterSpacing: 0.0,
+                                                  ),
+                                          enabledBorder: UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .alternate,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                          ),
+                                          focusedBorder: UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primary,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                          ),
+                                          errorBorder: UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .error,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                          ),
+                                          focusedErrorBorder:
+                                              UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .error,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                          ),
+                                        ),
+                                        style: FlutterFlowTheme.of(context)
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Readex Pro',
-                                              fontSize: 14.0,
-                                              fontWeight: FontWeight.w300,
+                                              fontSize: 22.0,
+                                              letterSpacing: 0.0,
                                             ),
-                                        hintStyle: FlutterFlowTheme.of(context)
-                                            .labelMedium,
-                                        enabledBorder: UnderlineInputBorder(
-                                          borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .alternate,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
-                                        focusedBorder: UnderlineInputBorder(
-                                          borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .primary,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
-                                        errorBorder: UnderlineInputBorder(
-                                          borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .error,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
-                                        focusedErrorBorder:
-                                            UnderlineInputBorder(
-                                          borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .error,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
+                                        minLines: null,
+                                        maxLength: 120,
+                                        maxLengthEnforcement:
+                                            MaxLengthEnforcement.enforced,
+                                        validator: _model
+                                            .textController4Validator
+                                            .asValidator(context),
                                       ),
-                                      style: FlutterFlowTheme.of(context)
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Divider(
+                          thickness: 10.0,
+                          color: FlutterFlowTheme.of(context).accent4,
+                        ),
+                        Form(
+                          key: _model.formKey3,
+                          autovalidateMode: AutovalidateMode.disabled,
+                          child: Column(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Padding(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 16.0, 0.0, 0.0),
+                                child: Container(
+                                  width: MediaQuery.sizeOf(context).width * 1.0,
+                                  height: 50.0,
+                                  decoration: const BoxDecoration(),
+                                  child: AuthUserStreamWidget(
+                                    builder: (context) =>
+                                        FlutterFlowDropDown<String>(
+                                      controller:
+                                          _model.dropDownValueController5 ??=
+                                              FormFieldController<String>(
+                                        _model.dropDownValue5 ??=
+                                            valueOrDefault(
+                                                currentUserDocument
+                                                    ?.advancedcourse5type,
+                                                ''),
+                                      ),
+                                      options: const [
+                                        'Advanced Placement® (AP)',
+                                        'International Baccalaureate® (IB)',
+                                        'Other (e.g. college level)'
+                                      ],
+                                      onChanged: (val) => setState(
+                                          () => _model.dropDownValue5 = val),
+                                      width: MediaQuery.sizeOf(context).width *
+                                          1.0,
+                                      height: 50.0,
+                                      textStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
                                             fontFamily: 'Readex Pro',
-                                            fontSize: 22.0,
+                                            letterSpacing: 0.0,
                                           ),
-                                      maxLength: 120,
-                                      maxLengthEnforcement:
-                                          MaxLengthEnforcement.enforced,
-                                      validator: _model.textController5Validator
-                                          .asValidator(context),
+                                      hintText: 'Course taken',
+                                      icon: Icon(
+                                        Icons.keyboard_arrow_down_rounded,
+                                        color: FlutterFlowTheme.of(context)
+                                            .secondaryText,
+                                        size: 24.0,
+                                      ),
+                                      fillColor: FlutterFlowTheme.of(context)
+                                          .secondaryBackground,
+                                      elevation: 2.0,
+                                      borderColor: FlutterFlowTheme.of(context)
+                                          .alternate,
+                                      borderWidth: 2.0,
+                                      borderRadius: 8.0,
+                                      margin: const EdgeInsetsDirectional.fromSTEB(
+                                          16.0, 4.0, 16.0, 4.0),
+                                      hidesUnderline: true,
+                                      isOverButton: true,
+                                      isSearchable: false,
+                                      isMultiSelect: false,
                                     ),
                                   ),
                                 ),
                               ),
-                            ),
-                          ],
+                              Padding(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 10.0, 0.0, 0.0),
+                                child: Container(
+                                  width: MediaQuery.sizeOf(context).width * 1.0,
+                                  height: 75.0,
+                                  decoration: const BoxDecoration(),
+                                  child: Padding(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
+                                        8.0, 0.0, 8.0, 0.0),
+                                    child: AuthUserStreamWidget(
+                                      builder: (context) => TextFormField(
+                                        controller: _model.textController5,
+                                        focusNode: _model.textFieldFocusNode5,
+                                        autofocus: true,
+                                        obscureText: false,
+                                        decoration: InputDecoration(
+                                          labelStyle:
+                                              FlutterFlowTheme.of(context)
+                                                  .labelMedium
+                                                  .override(
+                                                    fontFamily: 'Readex Pro',
+                                                    fontSize: 14.0,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w300,
+                                                  ),
+                                          hintStyle:
+                                              FlutterFlowTheme.of(context)
+                                                  .labelMedium
+                                                  .override(
+                                                    fontFamily: 'Readex Pro',
+                                                    letterSpacing: 0.0,
+                                                  ),
+                                          enabledBorder: UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .alternate,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                          ),
+                                          focusedBorder: UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primary,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                          ),
+                                          errorBorder: UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .error,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                          ),
+                                          focusedErrorBorder:
+                                              UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .error,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                          ),
+                                        ),
+                                        style: FlutterFlowTheme.of(context)
+                                            .bodyMedium
+                                            .override(
+                                              fontFamily: 'Readex Pro',
+                                              fontSize: 22.0,
+                                              letterSpacing: 0.0,
+                                            ),
+                                        minLines: null,
+                                        maxLength: 120,
+                                        maxLengthEnforcement:
+                                            MaxLengthEnforcement.enforced,
+                                        validator: _model
+                                            .textController5Validator
+                                            .asValidator(context),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                 ),
                 Divider(
@@ -906,6 +1005,7 @@ class _AdvancedCoursesWidgetState extends State<AdvancedCoursesWidget> {
                                 fontFamily: 'Plus Jakarta Sans',
                                 color: Colors.white,
                                 fontSize: 16.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w600,
                               ),
                       elevation: 4.0,
@@ -954,6 +1054,7 @@ class _AdvancedCoursesWidgetState extends State<AdvancedCoursesWidget> {
                                 fontFamily: 'Plus Jakarta Sans',
                                 color: FlutterFlowTheme.of(context).primary,
                                 fontSize: 16.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w600,
                               ),
                       elevation: 4.0,
@@ -984,6 +1085,7 @@ class _AdvancedCoursesWidgetState extends State<AdvancedCoursesWidget> {
                                 fontFamily: 'Plus Jakarta Sans',
                                 color: FlutterFlowTheme.of(context).accent4,
                                 fontSize: 16.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.w600,
                               ),
                       elevation: 4.0,

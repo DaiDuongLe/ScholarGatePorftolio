@@ -25,8 +25,6 @@ class FineArtsModel extends FlutterFlowModel<FineArtsWidget> {
     return null;
   }
 
-  /// Initialization and disposal methods.
-
   @override
   void initState(BuildContext context) {
     textControllerValidator = _textControllerValidator;
@@ -38,8 +36,4 @@ class FineArtsModel extends FlutterFlowModel<FineArtsWidget> {
     textFieldFocusNode?.dispose();
     textController?.dispose();
   }
-
-  /// Action blocks are added here.
-
-  /// Additional helper methods are added here.
 }

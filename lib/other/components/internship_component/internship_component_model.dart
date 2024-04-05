@@ -20,8 +20,6 @@ class InternshipComponentModel
   TextEditingController? textController3;
   String? Function(BuildContext, String?)? textController3Validator;
 
-  /// Initialization and disposal methods.
-
   @override
   void initState(BuildContext context) {}
 
@@ -36,8 +34,4 @@ class InternshipComponentModel
     textFieldFocusNode3?.dispose();
     textController3?.dispose();
   }
-
-  /// Action blocks are added here.
-
-  /// Additional helper methods are added here.
 }

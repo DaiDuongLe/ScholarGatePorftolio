@@ -59,6 +59,7 @@ class _TutorialWidgetState extends State<TutorialWidget> {
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Readex Pro',
                             color: FlutterFlowTheme.of(context).secondaryText,
+                            letterSpacing: 0.0,
                           ),
                     ),
                   ),
@@ -96,6 +97,7 @@ class _TutorialWidgetState extends State<TutorialWidget> {
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Readex Pro',
                                     color: FlutterFlowTheme.of(context).primary,
+                                    letterSpacing: 0.0,
                                   ),
                         ),
                       ),

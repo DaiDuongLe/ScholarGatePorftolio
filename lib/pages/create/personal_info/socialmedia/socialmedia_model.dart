@@ -55,8 +55,6 @@ class SocialmediaModel extends FlutterFlowModel<SocialmediaWidget> {
   TextEditingController? gitHubController;
   String? Function(BuildContext, String?)? gitHubControllerValidator;
 
-  /// Initialization and disposal methods.
-
   @override
   void initState(BuildContext context) {
     facebookControllerValidator = _facebookControllerValidator;
@@ -92,8 +90,4 @@ class SocialmediaModel extends FlutterFlowModel<SocialmediaWidget> {
     gitHubFocusNode?.dispose();
     gitHubController?.dispose();
   }
-
-  /// Action blocks are added here.
-
-  /// Additional helper methods are added here.
 }

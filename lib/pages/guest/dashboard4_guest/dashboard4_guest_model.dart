@@ -6,9 +6,6 @@ class Dashboard4GuestModel extends FlutterFlowModel<Dashboard4GuestWidget> {
   ///  State fields for stateful widgets in this page.
 
   final unfocusNode = FocusNode();
-  String currentPageLink = '';
-
-  /// Initialization and disposal methods.
 
   @override
   void initState(BuildContext context) {}
@@ -17,8 +14,4 @@ class Dashboard4GuestModel extends FlutterFlowModel<Dashboard4GuestWidget> {
   void dispose() {
     unfocusNode.dispose();
   }
-
-  /// Action blocks are added here.
-
-  /// Additional helper methods are added here.
 }

@@ -88,6 +88,7 @@ class _GpaWidgetState extends State<GpaWidget> {
                           fontFamily: 'Outfit',
                           color: const Color(0xFF15161E),
                           fontSize: 32.0,
+                          letterSpacing: 0.0,
                           fontWeight: FontWeight.w600,
                         ),
                   ),
@@ -100,6 +101,7 @@ class _GpaWidgetState extends State<GpaWidget> {
                             fontFamily: 'Plus Jakarta Sans',
                             color: const Color(0xFF606A85),
                             fontSize: 20.0,
+                            letterSpacing: 0.0,
                             fontWeight: FontWeight.w500,
                           ),
                     ),
@@ -146,6 +148,7 @@ class _GpaWidgetState extends State<GpaWidget> {
                                                     fontFamily: 'Outfit',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 22.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w300,
                                                   ),
                                               hintText: 'Unweighted GPA',
@@ -157,6 +160,7 @@ class _GpaWidgetState extends State<GpaWidget> {
                                                         'Plus Jakarta Sans',
                                                     color: const Color(0xFF606A85),
                                                     fontSize: 14.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w200,
                                                   ),
                                               enabledBorder:
@@ -207,8 +211,10 @@ class _GpaWidgetState extends State<GpaWidget> {
                                                   fontFamily: 'Outfit',
                                                   color: const Color(0xFF15161E),
                                                   fontSize: 22.0,
+                                                  letterSpacing: 0.0,
                                                   fontWeight: FontWeight.normal,
                                                 ),
+                                            minLines: null,
                                             cursorColor: const Color(0xFF6F61EF),
                                             validator: _model
                                                 .textController1Validator
@@ -252,6 +258,7 @@ class _GpaWidgetState extends State<GpaWidget> {
                                                         color:
                                                             const Color(0xFF606A85),
                                                         fontSize: 22.0,
+                                                        letterSpacing: 0.0,
                                                         fontWeight:
                                                             FontWeight.w300,
                                                       ),
@@ -265,6 +272,7 @@ class _GpaWidgetState extends State<GpaWidget> {
                                                         color:
                                                             const Color(0xFF606A85),
                                                         fontSize: 14.0,
+                                                        letterSpacing: 0.0,
                                                         fontWeight:
                                                             FontWeight.w200,
                                                       ),
@@ -324,9 +332,11 @@ class _GpaWidgetState extends State<GpaWidget> {
                                                           color:
                                                               const Color(0xFF15161E),
                                                           fontSize: 22.0,
+                                                          letterSpacing: 0.0,
                                                           fontWeight:
                                                               FontWeight.normal,
                                                         ),
+                                                minLines: null,
                                                 cursorColor: const Color(0xFF6F61EF),
                                                 validator: _model
                                                     .textController2Validator
@@ -380,6 +390,7 @@ class _GpaWidgetState extends State<GpaWidget> {
                                   fontFamily: 'Plus Jakarta Sans',
                                   color: Colors.white,
                                   fontSize: 16.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
                                 ),
                         elevation: 4.0,
@@ -422,6 +433,7 @@ class _GpaWidgetState extends State<GpaWidget> {
                                   fontFamily: 'Plus Jakarta Sans',
                                   color: FlutterFlowTheme.of(context).primary,
                                   fontSize: 16.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
                                 ),
                         elevation: 4.0,

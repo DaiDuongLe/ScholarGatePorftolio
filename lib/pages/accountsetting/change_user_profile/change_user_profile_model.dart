@@ -21,8 +21,6 @@ class ChangeUserProfileModel extends FlutterFlowModel<ChangeUserProfileWidget> {
   TextEditingController? lastnameController;
   String? Function(BuildContext, String?)? lastnameControllerValidator;
 
-  /// Initialization and disposal methods.
-
   @override
   void initState(BuildContext context) {}
 
@@ -35,8 +33,4 @@ class ChangeUserProfileModel extends FlutterFlowModel<ChangeUserProfileWidget> {
     lastnameFocusNode?.dispose();
     lastnameController?.dispose();
   }
-
-  /// Action blocks are added here.
-
-  /// Additional helper methods are added here.
 }

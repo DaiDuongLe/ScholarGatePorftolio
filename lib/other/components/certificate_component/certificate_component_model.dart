@@ -29,8 +29,6 @@ class CertificateComponentModel
     return null;
   }
 
-  /// Initialization and disposal methods.
-
   @override
   void initState(BuildContext context) {
     textController2Validator = _textController2Validator;
@@ -44,8 +42,4 @@ class CertificateComponentModel
     textFieldFocusNode2?.dispose();
     textController2?.dispose();
   }
-
-  /// Action blocks are added here.
-
-  /// Additional helper methods are added here.
 }

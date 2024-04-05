@@ -27,8 +27,6 @@ class SportsModel extends FlutterFlowModel<SportsWidget> {
   TextEditingController? textController5;
   String? Function(BuildContext, String?)? textController5Validator;
 
-  /// Initialization and disposal methods.
-
   @override
   void initState(BuildContext context) {}
 
@@ -50,8 +48,4 @@ class SportsModel extends FlutterFlowModel<SportsWidget> {
     textFieldFocusNode5?.dispose();
     textController5?.dispose();
   }
-
-  /// Action blocks are added here.
-
-  /// Additional helper methods are added here.
 }

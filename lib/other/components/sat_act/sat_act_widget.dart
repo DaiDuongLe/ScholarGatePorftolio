@@ -66,7 +66,10 @@ class _SatActWidgetState extends State<SatActWidget> {
                         setState(() => _model.dropDownValue = val),
                     width: 133.0,
                     height: 50.0,
-                    textStyle: FlutterFlowTheme.of(context).bodyMedium,
+                    textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
+                          fontFamily: 'Readex Pro',
+                          letterSpacing: 0.0,
+                        ),
                     hintText: 'Please select...',
                     icon: Icon(
                       Icons.keyboard_arrow_down_rounded,
@@ -98,6 +101,7 @@ class _SatActWidgetState extends State<SatActWidget> {
                                   fontFamily: 'Outfit',
                                   color: const Color(0xFF606A85),
                                   fontSize: 16.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w300,
                                 ),
                         hintStyle:
@@ -105,6 +109,7 @@ class _SatActWidgetState extends State<SatActWidget> {
                                   fontFamily: 'Plus Jakarta Sans',
                                   color: const Color(0xFF606A85),
                                   fontSize: 14.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w300,
                                 ),
                         enabledBorder: UnderlineInputBorder(
@@ -143,8 +148,10 @@ class _SatActWidgetState extends State<SatActWidget> {
                                 fontFamily: 'Outfit',
                                 color: const Color(0xFF15161E),
                                 fontSize: 22.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.normal,
                               ),
+                      minLines: null,
                       keyboardType: TextInputType.number,
                       cursorColor: const Color(0xFF6F61EF),
                       validator:
@@ -175,6 +182,7 @@ class _SatActWidgetState extends State<SatActWidget> {
                                   fontFamily: 'Outfit',
                                   color: const Color(0xFF606A85),
                                   fontSize: 22.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w300,
                                 ),
                         hintText: 'M/D/Y',
@@ -183,6 +191,7 @@ class _SatActWidgetState extends State<SatActWidget> {
                                   fontFamily: 'Plus Jakarta Sans',
                                   color: const Color(0xFF606A85),
                                   fontSize: 14.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w200,
                                 ),
                         enabledBorder: UnderlineInputBorder(
@@ -221,8 +230,10 @@ class _SatActWidgetState extends State<SatActWidget> {
                                 fontFamily: 'Outfit',
                                 color: const Color(0xFF15161E),
                                 fontSize: 22.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.normal,
                               ),
+                      minLines: null,
                       keyboardType: TextInputType.datetime,
                       cursorColor: const Color(0xFF6F61EF),
                       validator:

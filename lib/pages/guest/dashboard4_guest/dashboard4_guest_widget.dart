@@ -61,13 +61,8 @@ class _Dashboard4GuestWidgetState extends State<Dashboard4GuestWidget> {
                 hoverColor: Colors.transparent,
                 highlightColor: Colors.transparent,
                 onTap: () async {
-                  _model.currentPageLink = await generateCurrentPageLink(
-                    context,
-                    isShortLink: false,
-                  );
-
                   await Share.share(
-                    _model.currentPageLink,
+                    'scholargateportfolio://portfolio.com${GoRouter.of(context).location}',
                     sharePositionOrigin: getWidgetBoundingBox(context),
                   );
                 },
@@ -190,6 +185,7 @@ class _Dashboard4GuestWidgetState extends State<Dashboard4GuestWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 20.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -204,6 +200,7 @@ class _Dashboard4GuestWidgetState extends State<Dashboard4GuestWidget> {
                                                 .override(
                                                   fontFamily: 'Readex Pro',
                                                   fontSize: 20.0,
+                                                  letterSpacing: 0.0,
                                                 ),
                                           ),
                                         ),
@@ -321,6 +318,8 @@ class _Dashboard4GuestWidgetState extends State<Dashboard4GuestWidget> {
                                                                         context)
                                                                     .primaryText,
                                                                 fontSize: 22.0,
+                                                                letterSpacing:
+                                                                    0.0,
                                                                 fontWeight:
                                                                     FontWeight
                                                                         .w600,
@@ -411,6 +410,8 @@ class _Dashboard4GuestWidgetState extends State<Dashboard4GuestWidget> {
                                                                         context)
                                                                     .primaryText,
                                                                 fontSize: 22.0,
+                                                                letterSpacing:
+                                                                    0.0,
                                                                 fontWeight:
                                                                     FontWeight
                                                                         .w600,
@@ -512,6 +513,8 @@ class _Dashboard4GuestWidgetState extends State<Dashboard4GuestWidget> {
                                                                       .primaryText,
                                                                   fontSize:
                                                                       22.0,
+                                                                  letterSpacing:
+                                                                      0.0,
                                                                   fontWeight:
                                                                       FontWeight
                                                                           .w600,
@@ -596,6 +599,8 @@ class _Dashboard4GuestWidgetState extends State<Dashboard4GuestWidget> {
                                                                       .primaryText,
                                                                   fontSize:
                                                                       22.0,
+                                                                  letterSpacing:
+                                                                      0.0,
                                                                   fontWeight:
                                                                       FontWeight
                                                                           .w600,

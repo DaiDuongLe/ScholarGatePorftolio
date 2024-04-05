@@ -73,6 +73,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Outfit',
                   fontSize: 30.0,
+                  letterSpacing: 0.0,
                   fontWeight: FontWeight.w600,
                 ),
           ),
@@ -118,6 +119,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 25.0,
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w600,
                                       ),
                                 ),
@@ -134,6 +136,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 16.0,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -158,6 +161,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
                                             color: FlutterFlowTheme.of(context)
                                                 .primary,
                                             fontSize: 18.0,
+                                            letterSpacing: 0.0,
                                             decoration:
                                                 TextDecoration.underline,
                                           ),
@@ -183,6 +187,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 25.0,
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w600,
                                       ),
                                 ),
@@ -199,6 +204,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 16.0,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -223,6 +229,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
                                             color: FlutterFlowTheme.of(context)
                                                 .primary,
                                             fontSize: 18.0,
+                                            letterSpacing: 0.0,
                                             decoration:
                                                 TextDecoration.underline,
                                           ),
@@ -248,6 +255,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 25.0,
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w600,
                                       ),
                                 ),
@@ -264,6 +272,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 16.0,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -288,6 +297,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
                                             color: FlutterFlowTheme.of(context)
                                                 .primary,
                                             fontSize: 18.0,
+                                            letterSpacing: 0.0,
                                             decoration:
                                                 TextDecoration.underline,
                                           ),
@@ -313,6 +323,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
                                       .override(
                                         fontFamily: 'Readex Pro',
                                         fontSize: 25.0,
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.w600,
                                       ),
                                 ),
@@ -346,6 +357,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
                                             .override(
                                               fontFamily: 'Readex Pro',
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                             ),
                                       ),
                                     ),
@@ -382,6 +394,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
                                             .override(
                                               fontFamily: 'Readex Pro',
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                             ),
                                       ),
                                     ),
@@ -417,6 +430,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
                                             .override(
                                               fontFamily: 'Readex Pro',
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                             ),
                                       ),
                                     ),
@@ -452,6 +466,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
                                             .override(
                                               fontFamily: 'Readex Pro',
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                             ),
                                       ),
                                     ),
@@ -488,6 +503,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
                                             .override(
                                               fontFamily: 'Readex Pro',
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                             ),
                                       ),
                                     ),
@@ -523,6 +539,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
                                             .override(
                                               fontFamily: 'Readex Pro',
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                             ),
                                       ),
                                     ),
@@ -558,6 +575,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
                                             .override(
                                               fontFamily: 'Readex Pro',
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                             ),
                                       ),
                                     ),
@@ -593,6 +611,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
                                             .override(
                                               fontFamily: 'Readex Pro',
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                             ),
                                       ),
                                     ),
@@ -628,6 +647,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
                                             .override(
                                               fontFamily: 'Readex Pro',
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                             ),
                                       ),
                                     ),
@@ -655,6 +675,7 @@ class _UserPersonalPageWidgetState extends State<UserPersonalPageWidget> {
                                             color: FlutterFlowTheme.of(context)
                                                 .primary,
                                             fontSize: 18.0,
+                                            letterSpacing: 0.0,
                                             decoration:
                                                 TextDecoration.underline,
                                           ),

@@ -68,6 +68,7 @@ class _ServiceHoursComponentWidgetState
                                   fontFamily: 'Outfit',
                                   color: const Color(0xFF606A85),
                                   fontSize: 22.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w300,
                                 ),
                         hintStyle:
@@ -75,6 +76,7 @@ class _ServiceHoursComponentWidgetState
                                   fontFamily: 'Plus Jakarta Sans',
                                   color: const Color(0xFF606A85),
                                   fontSize: 14.0,
+                                  letterSpacing: 0.0,
                                   fontWeight: FontWeight.w200,
                                 ),
                         enabledBorder: UnderlineInputBorder(
@@ -113,8 +115,10 @@ class _ServiceHoursComponentWidgetState
                                 fontFamily: 'Outfit',
                                 color: const Color(0xFF15161E),
                                 fontSize: 22.0,
+                                letterSpacing: 0.0,
                                 fontWeight: FontWeight.normal,
                               ),
+                      minLines: null,
                       cursorColor: const Color(0xFF6F61EF),
                       validator:
                           _model.textControllerValidator.asValidator(context),

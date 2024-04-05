@@ -135,6 +135,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                                 fontFamily: 'Plus Jakarta Sans',
                                                 color: const Color(0xFF101213),
                                                 fontSize: 36.0,
+                                                letterSpacing: 0.0,
                                                 fontWeight: FontWeight.w600,
                                               ),
                                         ),
@@ -146,6 +147,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                                 fontFamily: 'Plus Jakarta Sans',
                                                 color: const Color(0xFF101213),
                                                 fontSize: 16.0,
+                                                letterSpacing: 0.0,
                                                 fontWeight: FontWeight.normal,
                                               ),
                                         ),
@@ -180,6 +182,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                           fontFamily: 'Urbanist',
                                           color: const Color(0xFF101213),
                                           fontSize: 32.0,
+                                          letterSpacing: 0.0,
                                           fontWeight: FontWeight.w600,
                                         ),
                                   ),
@@ -194,6 +197,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                             fontFamily: 'Plus Jakarta Sans',
                                             color: const Color(0xFF57636C),
                                             fontSize: 14.0,
+                                            letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
                                     ),
@@ -207,6 +211,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                         controller:
                                             _model.emailAddressController,
                                         focusNode: _model.emailAddressFocusNode,
+                                        autofocus: false,
                                         autofillHints: const [AutofillHints.email],
                                         obscureText: false,
                                         decoration: InputDecoration(
@@ -219,6 +224,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                                         'Plus Jakarta Sans',
                                                     color: const Color(0xFF57636C),
                                                     fontSize: 16.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w500,
                                                   ),
                                           enabledBorder: OutlineInputBorder(
@@ -263,8 +269,10 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                               fontFamily: 'Plus Jakarta Sans',
                                               color: const Color(0xFF101213),
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                             ),
+                                        minLines: null,
                                         keyboardType:
                                             TextInputType.emailAddress,
                                         validator: _model
@@ -294,6 +302,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                                         'Plus Jakarta Sans',
                                                     color: const Color(0xFF57636C),
                                                     fontSize: 16.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w500,
                                                   ),
                                           enabledBorder: OutlineInputBorder(
@@ -354,8 +363,10 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                               fontFamily: 'Plus Jakarta Sans',
                                               color: const Color(0xFF101213),
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                             ),
+                                        minLines: null,
                                         validator: _model
                                             .passwordControllerValidator
                                             .asValidator(context),
@@ -386,6 +397,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                                         'Plus Jakarta Sans',
                                                     color: const Color(0xFF57636C),
                                                     fontSize: 16.0,
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w500,
                                                   ),
                                           enabledBorder: OutlineInputBorder(
@@ -448,8 +460,10 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                               fontFamily: 'Plus Jakarta Sans',
                                               color: const Color(0xFF101213),
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                             ),
+                                        minLines: null,
                                         validator: _model
                                             .confirmpasswordControllerValidator
                                             .asValidator(context),
@@ -509,6 +523,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                               fontFamily: 'Plus Jakarta Sans',
                                               color: Colors.white,
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                             ),
                                         elevation: 3.0,
@@ -568,6 +583,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                                           color:
                                                               const Color(0xFF57636C),
                                                           fontSize: 14.0,
+                                                          letterSpacing: 0.0,
                                                           fontWeight:
                                                               FontWeight.w500,
                                                         ),
@@ -613,6 +629,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                               fontFamily: 'Plus Jakarta Sans',
                                               color: const Color(0xFF101213),
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                             ),
                                         elevation: 0.0,
@@ -661,6 +678,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                               fontFamily: 'Plus Jakarta Sans',
                                               color: const Color(0xFF101213),
                                               fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                             ),
                                         elevation: 0.0,
@@ -702,9 +720,8 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                           );
                                         },
                                         child: RichText(
-                                          textScaleFactor:
-                                              MediaQuery.of(context)
-                                                  .textScaleFactor,
+                                          textScaler:
+                                              MediaQuery.of(context).textScaler,
                                           text: TextSpan(
                                             children: [
                                               const TextSpan(
@@ -723,6 +740,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                                           color:
                                                               const Color(0xFF4B39EF),
                                                           fontSize: 14.0,
+                                                          letterSpacing: 0.0,
                                                           fontWeight:
                                                               FontWeight.w600,
                                                         ),
@@ -758,6 +776,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                                       'Plus Jakarta Sans',
                                                   color: const Color(0xFF101213),
                                                   fontSize: 14.0,
+                                                  letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
                                           ),
