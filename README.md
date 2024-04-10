@@ -38,7 +38,7 @@ ScholarGate Portfolio allows high school students to easily create and share the
 ## Installation
 
 Install ScholarGate Portfolio with the included APK file under build/app/outputs/flutter-apk and select the appropriate architechture
-(If you're unsure, it'll most likely be ARM 8)
+(If you're unsure, it'll most likely be ARM64 v8)
     
 ## Copyright
 Copyright © 2024 Dai Duong Le, Linh Nhat Le Dao, Hengxi Li. All rights reserved.
