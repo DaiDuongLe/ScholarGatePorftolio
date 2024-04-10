@@ -24,7 +24,7 @@ ScholarGate Portfolio allows high school students to easily create and share the
 ## Authors
 
 - [@DaiDuongLe](https://www.github.com/DaiDuongLe)
-- [@CannedBearrr](https://www.github.com/CannedBearrr)
+- [@CannedBearrr](https://www.github.com/CannedBearrr) (Hengxi Li)
 - Linh Nhat Le Dao
 
 
