@@ -3,6 +3,10 @@
 
 ScholarGate Portfolio allows high school students to easily create and share their portfolio using social media with a sharable link. 
 
+# FBLA Placement 
+3rd Place at SLC New York State FBLA in Mobile Application Development 
+https://www.nysfbla.org/wp-content/uploads/2024/04/SLC-Winners-List.pdf
+
 
 ## Documentation
 
