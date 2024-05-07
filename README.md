@@ -36,7 +36,7 @@ https://www.nysfbla.org/wp-content/uploads/2024/04/SLC-Winners-List.pdf
 
 **Client:** Flutter, FlutterFlow
 
-**Server:** Firebase
+**Backend:** Firebase
 
 
 ## Installation
